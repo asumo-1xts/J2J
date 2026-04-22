@@ -1,0 +1,81 @@
+{
+  "manufacturer": "aSumo",
+  "keyboard_name": "j2j_r",
+  "maintainer": "asumo-1xts",
+  "development_board": "promicro",
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "extrakey": true,
+    "mousekey": true,
+    "nkro": true,
+    "split_keyboard": true
+  },
+  "split": {
+    "enabled": true,
+    "serial": {
+      "pin": "PD0"
+    },
+    "transport": {
+      "protocol": "serial"
+    }
+  },
+  "matrix_pins": {
+    "cols": ["C2", "C2", "C2", "C2"],
+    "rows": ["D1", "D1", "D1", "D1"]
+  },
+  "url": "",
+  "usb": {
+    "device_version": "0.1.0",
+    "pid": "0x0000",
+    "vid": "0xFEED"
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        { "matrix": [5, 0], "x": 0.75, "y": 0 },
+        { "matrix": [5, 1], "x": 1.75, "y": 0 },
+        { "matrix": [5, 2], "x": 2.75, "y": 0 },
+        { "matrix": [5, 3], "x": 3.75, "y": 0 },
+        { "matrix": [5, 4], "x": 4.75, "y": 0 },
+        { "matrix": [5, 5], "x": 5.75, "y": 0 },
+        { "matrix": [5, 6], "x": 6.75, "y": 0 },
+        { "matrix": [5, 7], "x": 7.75, "y": 0 },
+        { "matrix": [5, 8], "x": 8.75, "y": 0 },
+        { "matrix": [6, 0], "x": 0.25, "y": 1 },
+        { "matrix": [6, 1], "x": 1.25, "y": 1 },
+        { "matrix": [6, 2], "x": 2.25, "y": 1 },
+        { "matrix": [6, 3], "x": 3.25, "y": 1 },
+        { "matrix": [6, 4], "x": 4.25, "y": 1 },
+        { "matrix": [6, 5], "x": 5.25, "y": 1 },
+        { "matrix": [6, 6], "x": 6.25, "y": 1 },
+        { "matrix": [6, 7], "x": 7.5, "y": 1, "w": 1.25, "h": 2 },
+        { "matrix": [6, 8], "x": 8.75, "y": 1 },
+        { "matrix": [7, 0], "x": 0.5, "y": 2 },
+        { "matrix": [7, 1], "x": 1.5, "y": 2 },
+        { "matrix": [7, 2], "x": 2.5, "y": 2 },
+        { "matrix": [7, 3], "x": 3.5, "y": 2 },
+        { "matrix": [7, 4], "x": 4.5, "y": 2 },
+        { "matrix": [7, 5], "x": 5.5, "y": 2 },
+        { "matrix": [7, 6], "x": 6.5, "y": 2 },
+        { "matrix": [7, 7], "x": 8.75, "y": 2 },
+        { "matrix": [8, 0], "x": 0, "y": 3 },
+        { "matrix": [8, 1], "x": 1, "y": 3 },
+        { "matrix": [8, 2], "x": 2, "y": 3 },
+        { "matrix": [8, 3], "x": 3, "y": 3 },
+        { "matrix": [8, 4], "x": 4, "y": 3 },
+        { "matrix": [8, 5], "x": 5, "y": 3 },
+        { "matrix": [8, 6], "x": 6, "y": 3, "w": 1.75 },
+        { "matrix": [9, 6], "x": 7.75, "y": 3 },
+        { "matrix": [8, 7], "x": 8.75, "y": 3 },
+        { "matrix": [9, 0], "x": 0.75, "y": 4, "w": 1.75 },
+        { "matrix": [9, 1], "x": 2.5, "y": 4, "w": 1.25 },
+        { "matrix": [9, 2], "x": 3.75, "y": 4, "w": 1.25 },
+        { "matrix": [9, 3], "x": 5, "y": 4, "w": 1.25 },
+        { "matrix": [9, 4], "x": 6.75, "y": 4 },
+        { "matrix": [9, 5], "x": 7.75, "y": 4 },
+        { "matrix": [9, 7], "x": 8.75, "y": 4 }
+      ]
+    }
+  }
+}
