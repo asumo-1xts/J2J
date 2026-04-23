@@ -1,1 +1,6 @@
 *.zip
+
+project.db
+sym-lib-table
+fp-lib-table
+fp-info-cache
