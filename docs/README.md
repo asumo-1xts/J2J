@@ -8,8 +8,8 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 
 **_We can make it if we try ..._**
 
-<img src="../docs/keyboard-layout_L.png" alt="J2J_L" height="160" />
-<img src="../docs/keyboard-layout_R.png" alt="J2J_R" height="160" />
+<img src="keyboard-layout_L.png" alt="J2J_L" height="160" />
+<img src="keyboard-layout_R.png" alt="J2J_R" height="160" />
 
 </div>
 
@@ -17,6 +17,6 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 
 - シンプルな分割キーボード
 - US配列 + 変換キー，無変換キー，ISO Enterキー
-- 接続方法は有線のみ（USB Type-C）
-- Vialリマッピング対応
-- ~~ホットスワップ対応~~
+- USB Type-Cによる有線接続
+- ホットスワップ対応（Cherry版のみ）
+- Vial対応
