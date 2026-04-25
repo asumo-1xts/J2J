@@ -1,4 +1,4 @@
-KiCad_*/**
-!*.kicad_pro
-!*.kicad_pcb
-!*.kicad_sch
+jlcpcb/
+KiCad_*.zip
+*.kicad_prl
+fp-info-cache
