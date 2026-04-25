@@ -1,6 +1,4 @@
-*.zip
-
-project.db
-sym-lib-table
-fp-lib-table
-fp-info-cache
+KiCad_*/**
+!*.kicad_pro
+!*.kicad_pcb
+!*.kicad_sch

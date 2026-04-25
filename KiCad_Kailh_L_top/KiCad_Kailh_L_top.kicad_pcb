@@ -1,0 +1,5809 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.2)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Just the Two of JIS - Left")
+		(date "2026-04-24")
+		(rev "0.1.0")
+		(company "1x telescope")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.11)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "04828612-1499-4d9c-9d0b-6af324e70137")
+		(at 124.85 104.95 180)
+		(property "Reference" "SW11"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "417dbfcd-1eaf-4451-884e-1cf5f3c35770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "3d32ff4b-d749-4375-918e-05e1fc7b7910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "455c000f-e7f6-4023-a3ad-c70411fa0cfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f483a996-77b6-4ed4-8f29-60131a4eacba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2ef26e57-90cf-4cb6-a3b0-ee9c567c5cb5")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0ed12348-7530-49a9-b212-8884b0af1bdc")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b8f0d0cd-05c8-4a35-a516-53dcfb39d691")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cefc0761-1673-4857-923f-c0dc6ac7655c")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6b361a00-9540-4a40-b7f8-c03337b5395c")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae5c71fa-6dbf-4e97-a9a3-e76c3b8b7d55")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d87ff00f-bbf8-437e-a145-7f298d4f76d1")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb2651f8-9b3b-4e78-b7a0-833bd98cce89")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f02f7dcd-0de7-4647-a9aa-c2e4e9d238b2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "06ba2cc9-0ff3-40ab-93c8-d68b7dc2271d")
+		(at 89.1313 158.5812 180)
+		(property "Reference" "SW27"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "77d701f8-54a9-4a6d-b7a4-c6a9c23fb9fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Win"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "9c1dd76b-077a-40c9-bfbe-5c51f5237d7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "981ada43-d661-4938-a44d-5170c6b4e756")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3271a812-1022-4578-b175-370ac7fb7b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c1aec151-1af1-487e-a93f-9277b4a27917")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "704dd3ff-2aae-4069-ac66-decfa4c60917")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7f1c03f-c1f1-4a9f-9d1d-97bef74529bf")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "337805b5-7513-42a0-ac57-7e661c2ee3ee")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "97caa36f-288e-4ce7-8543-4c2f11d3bca2")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b2ca8ae-5a1f-42d7-be80-316d26c98abd")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24307637-f9e6-482f-9d6d-d3a960352f38")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91fb4e4b-8011-4798-9275-681d55eefae3")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "929133cc-ef73-4968-a0a6-aabe8e5e8970")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "0af84e67-7d55-4919-9f48-d11dc847faf2")
+		(at 43.8875 105.0031 180)
+		(property "Reference" "SW7"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "a10f7752-bad3-4394-8598-f03a8897f8a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "aa9084b5-8c56-45ec-ba59-0b6214b79cae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e9b9a4-6814-43f6-bfb9-f3c07f987995")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61adfb08-a58e-4397-b63f-18c7735b4f6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/67548441-31f8-4f58-ac46-a7ef8ceb9efc")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0c6f1b4-867c-4263-9746-e34ef7a80bcf")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "830ae4f3-f897-4a3e-865c-63d0a12c29dc")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e270e4b9-a825-4401-9c52-2c718e1242ea")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab4c4e15-800d-4c2a-80f8-c8c99e288660")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f195374-eb92-4a23-8374-f562a3be64b3")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "87d7c51e-8acc-4ad6-b818-03f2f4ef37f7")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43b6c516-827c-4f94-a09a-4e52069db5be")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b087b589-f351-4138-8120-168c7d0806a1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "0b2b45e1-1f14-4b04-af7a-ec3588555dac")
+		(at 91.5125 122.8625 180)
+		(property "Reference" "SW15"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "6ab2163f-6cb3-42bd-aa72-fef6b6dcac60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "S"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "9316f27a-5a26-489e-8a5b-2a14f254d750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92ea6b5f-f006-40bf-bf3a-9fd4cbce5e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06094d06-e1b8-4c01-97ad-f7b2ea6f573d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b25f98fe-36f3-4733-97a8-92c287ef75cd")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f764f57-c5c8-464e-a637-57b1bf4b0108")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a1dfd907-7ed4-4e49-b154-e07fb23d5ee0")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44e52418-dc97-4cbd-90fa-41e38f525e5f")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6d34de9f-d335-4c29-96aa-3a425b9c9a90")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6453424e-d9c0-4802-9c58-4f7becd011cd")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "903d58e3-7945-4390-8aec-166815bec312")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32b93746-047b-4900-a6b5-e64ce91279ae")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41023cea-4af2-4045-b027-817cbf0ac0d1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "0d51fdb6-490b-4384-b052-5de9e26d5a48")
+		(at 31.75 168.275)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6204a7af-8815-4e32-bf7e-1d9115cd8d7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c12a9f9e-8fc8-4cc8-9efe-bf8b3b455b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5927ca78-1d92-45c8-ab94-eca97c7fff72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d340d7f-51aa-4980-9c5a-807b247b4776")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "0c59fc16-848e-4f1a-926c-f85ed0d61da4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4593c1f3-8c72-4806-a790-fd6773354da5")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "94f0c25e-4d38-4e58-b7be-9d72fc07e0c5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "27b64972-1f2b-445e-b57c-476c3560de8f")
+		(at 31.75 101.6)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "257d3238-4918-4508-b15a-6b95337a39c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6e1b633-769e-4381-b446-ef5c0d983efe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803314d1-9946-4d01-96c5-22376f9cfd5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3355821e-7e6f-42b0-a00f-84670201a2c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "7861bb9f-cd6c-4858-973b-0dc8e55e4127")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "37639e7c-8c6c-4b55-b66c-63b6a7422c7f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "80664459-3614-4633-a977-ad2f81df0468")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "2a2b2ba9-0b15-4705-bbe2-4561ca94196d")
+		(at 86.995 76.835)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fbd29687-3b83-4bda-a17a-c46bd871fc70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9c7edf-6835-404a-9102-f8deb6f3bd5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87b1dc7c-7551-4fd6-a0f6-e21fed13d10f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "424b75c6-67ec-411b-9522-d258869f8332")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "1e18184c-d22d-4b2f-8f8f-a03a7694a724")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "54628ae7-3c20-4663-ac3c-594ffe8d8166")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "63e4898a-0e67-46c5-9d62-128960d1f934")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "2c7acdb1-4976-49f6-8476-41b3202ff938")
+		(at 67.7 104.95 180)
+		(property "Reference" "SW8"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "534ad79c-e8b4-4e47-ba4d-24e40066eda9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Q"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "1b671909-76b2-4011-b427-ce4bed994a04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89bb376e-50ad-49db-b3ab-1760e7872c97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fcdf562-98b9-4aad-b830-9928628c7401")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f69e3a64-7edc-4820-ab06-c719cb8b88e8")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b7e3bd5-e56e-4648-9233-781e7aaa076b")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7156a5ca-0ad5-499b-ad27-644121ae5c9e")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ec24e52-3ebd-4078-84f3-7d6ef7921ad5")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "af539397-a58c-4e89-a325-ce978b2b13ab")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "987ebe19-be04-4abd-8c26-49fdd7d76951")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab851d9b-7e8d-4fb7-9a3d-b4c1bb4c8551")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b186c780-c347-4425-8970-2e6bee722e94")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1b93bdf-1076-4881-a2b4-e994da9f465b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "2e2f0789-563f-457f-965f-b628d8582512")
+		(at 72.4625 122.8625 180)
+		(property "Reference" "SW14"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "ce201f03-0ff5-4e68-b645-f276cfc818be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "84b22230-b590-4faa-a473-98ff40059c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e9b4441-43dc-4031-acd0-83b890260029")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca55378-0b63-4005-b383-3f06811de748")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0a19c086-4bb2-4999-b712-c00d69fa5f53")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f96ed6d8-0aa8-4ec1-94ce-e662d84089e6")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f9e0c956-6326-4e93-a4ff-ce387fa98ea1")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "72d290cc-97a7-4fc2-bb4c-80bd99254e91")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64e41e55-3c79-4a5c-8546-e989fcf4389b")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a2cdc7e-af8a-4a1c-9766-5b9267169ba3")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc2725d8-90f3-4641-81ed-cac09842f208")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "389dcb41-705b-4ca4-94e5-c411bbfc005f")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf08c13d-50c6-4d3e-bb28-20344537a306")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "318d3e52-4a9a-4748-abce-129baa7ac1d4")
+		(at 31.75 146.05)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62377cba-aee8-44bc-bc8b-20c4d357a7e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53471a2b-2e49-44a5-ba03-9e5ca2502896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e088bc2c-9ee8-4ff1-a12c-fd2ca491b4a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "702513cc-cf29-447d-81e3-8af6206349df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d53768ce-e06b-461d-8427-71d19f96c320")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bd38be4c-0c29-4752-a88e-b80467ba2701")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1a0722aa-4956-493a-9923-9565f37a36ef")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "3686990e-e73d-490a-b104-1d30a1c5c563")
+		(at 41.5063 158.5812 180)
+		(property "Reference" "SW25"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "d7f1e3a6-431f-400f-8b2b-5cbe14642cab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fn"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "46b05214-388c-4a30-a7a1-ad977558bcbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b18b68d-54ff-4240-927b-c0051fc91fa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c729aa3f-9f76-4548-a489-270a4f9325b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4d4fa54f-d2c6-48a5-99f0-45a510352bc6")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd9b1d13-f72f-4cdd-8bd3-3f12218613cb")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f3fe056-14af-4ff3-9901-c4b02b01118f")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4684b4c3-3149-45bc-af5f-d3ca4fd162b3")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e65a0b8f-9e3b-4888-b49d-724cc56034b9")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4fc1f3d2-d21c-4259-bdb4-915a9c954143")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c427ee5-25f2-4d6a-ac96-0d41983f545f")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3fe3951c-7175-4758-bed8-8256ac34746f")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8cedd7c9-d72c-4a3e-bf34-4924f936b7e7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "395500e9-c621-4403-92ae-46b116d7d6ec")
+		(at 161.29 101.6)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca88d4fc-8a35-45d8-b762-8a216d506504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c2eb53d-d82d-4b42-a770-b58ef6bc6e9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb38726b-86f6-462b-bac6-f38d6d4bdc98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b79cffb-daea-4bcf-92ac-ee866749f99f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "4737e4b4-a75d-4af0-a9c3-6cd61d8597d5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cd36e8ce-282f-486d-a8d1-36b295903853")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "511cd1b3-b7ad-4d85-9583-ba091892cdc0")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "3e1cc68f-405e-43fc-9dac-6a770716b740")
+		(at 65.3188 158.5812 180)
+		(property "Reference" "SW26"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "908aecc9-b8b7-4d52-9220-3ab40a3856b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Alt"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "efa3f900-14cd-4735-a235-24d7d463846c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab5b6dcf-fd68-4e67-b951-cccfd7732248")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af653a1-9e4d-49ef-a817-a6dd3a037f6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/78acd629-a841-4f7b-abac-7a77135b2c45")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "16add775-d560-4c1b-9cdf-bca46bae405b")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c097c37d-6757-4c1c-9fea-489464adee7e")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b059ef31-0232-457b-b37b-a56bdd4d43eb")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53235b73-0017-4a4c-b6b9-03e704c69c74")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f28de7f2-a03b-4ec6-a023-d9102a3b8364")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9de6a340-01f5-42eb-bd0e-c0ad6ec30450")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3debbb40-a845-4f8a-b257-0bf4dcad5649")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "faa023d7-da8e-420a-bffd-1967481159ce")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "3f7623f3-6455-4c5b-9f42-ef6b2f9b7f88")
+		(at 143.9 104.95 180)
+		(property "Reference" "SW12"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "134f18c8-9c4a-476d-9943-f52ac6397f2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "T"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "8a9bedbb-ccac-4570-8da0-5864f01120f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373e044b-a028-4b9b-a663-db3d5339236c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "addef891-ae41-424e-9643-2748bac24252")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9636f7cc-4d5a-4338-ac53-2f5cb0d2437d")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "efb2cb44-f5c5-44a9-9bf8-a2092c2c8eb1")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd60e881-9945-4fca-98d7-6709b7fdc10d")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23343170-f04f-456b-9594-f213554f5e64")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec3df1bb-c267-4c26-b3d6-f2913e6fb963")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d992268b-cbb1-4999-88e5-a311a8884935")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b6d0782c-68ab-45e9-9988-7563cc141dd3")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39ee5842-7ee5-43ea-924c-2ee2f6e2d618")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f419314-d7cd-423e-84b5-404f7af51da4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "51701ce7-8ee3-48bc-ab41-82d9225a8870")
+		(at 58.175 87.1437 180)
+		(property "Reference" "SW2"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "a365098a-a41c-4c48-850b-5c0af854785e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "4e23157b-7850-40d8-9173-9955fe7bd0e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e9d3c8f-a719-4cb7-aa5b-a1ecc45b0248")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79a3a2fb-e65a-43bf-af2c-661141a49587")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/63b2bee5-b83e-4877-bedf-3be01feeff6d")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fd999f99-f924-4d71-ad87-784bb7977a65")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e3d426dc-0cb2-48f5-9657-f452d61e10aa")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c3ae2883-dded-4511-8ebb-b092ab4ddec5")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "db9f4c62-5fd6-4a43-98c9-ee2f3b610f47")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "873a13e6-af51-470f-a531-9647aa032725")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c929aa71-073e-43da-86ca-7514abc27132")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1dbd91f9-a2f4-4c9d-b2de-6177f362f77e")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "136d1a81-bb92-41ef-950b-ed1a7d8a7874")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "531e781a-0d15-4f89-a468-c6ba6f24eb0b")
+		(at 143.9 158.5812 180)
+		(property "Reference" "SW29"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "aa86dc77-d695-4d09-a4ae-c0cb5edc0157")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Space"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "75348413-58ff-4b8a-aca3-3102595630df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a1236b2-56f4-49b9-8f21-2be06b5e6ab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36db16da-f241-407b-a55f-25197ab57823")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/89008ac3-819f-44e0-8a01-7e88e6c2d924")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "51640293-d838-4427-acb3-ed362c76aafb")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "97581aea-7988-45db-b5a8-840c4322f806")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a0875967-3082-4d82-b150-5cfc291e4552")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0d6f68e1-8ba0-49bf-8735-3304422efb12")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "68978dfc-f11c-43a2-a3ec-bd69da3bebc3")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f78c58f-157c-474d-83a9-f4405175fe25")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9f638b9-7ce7-406e-8e69-35895c8dfa2d")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8a6eec30-7dd3-4981-b814-027283f7fb8e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "55d26cfb-11ea-4e25-b3be-ac65ec6d9cf5")
+		(at 129.6125 122.8625 180)
+		(property "Reference" "SW17"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "6f12c38f-8bbe-4937-8c3a-5045e4e25153")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "F"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "99e89155-c7f8-436a-88f2-0f11a9ec280c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1bead9c-6966-4791-a066-0763f8e1d034")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e62afcad-31a5-41be-be54-f0e04a9aa179")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e16f8c3e-bf84-4d66-8e0b-7ea06b55c088")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4ee014ac-82cb-4f84-8fab-07a42a6d5d23")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6d7e38b3-fee6-4733-965a-d7fddde84e1f")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "856bbe13-0592-4168-80c4-bc66eb6e0d76")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eea7bcf6-b3cf-41ff-be8a-c3c1b3997da5")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d27cd355-07cc-499b-bb57-1ae9f256d587")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d6ad171-9636-409c-9add-3b826ae4a4cc")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff63e756-c02f-40c3-aa72-1edb324fd74c")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0aed7114-b5f0-459f-81a8-028db01713b6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "5b877ee3-3aa8-49ff-a615-78a2cf52bcd1")
+		(at 139.1375 140.6687 180)
+		(property "Reference" "SW23"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "9de3cf17-7a7e-4395-88dd-2360ac6f5ba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "V"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "3a0f95a2-fa1a-4248-942f-ff7e878c3fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c34a9c42-47b0-4343-a47c-6cf7b2b64248")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29e4c20f-6c25-48ea-9a26-3f908175329c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/27a01c09-fa3b-44e3-8418-3a68d4c2c6de")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "17a4fd4d-a2ca-4685-a555-82a63cbb152a")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "74f0702a-0bbf-4cea-8b89-1b26766f02c6")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42d454ae-6f99-4052-adf8-1d9bd4c7b363")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c959004e-42f4-4840-b4e6-b7e5833827ea")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d24206eb-0773-427e-9885-7860110bffe0")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de41bf93-90c8-4cbb-b93c-95e0a58c8658")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cdb4bc86-e0dc-4bcf-b275-c5253ceadff5")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8d2cae3f-0737-4f8e-b8bb-3033cc20c36a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "5cd1b263-00d9-41cf-9ae2-7374f2040d48")
+		(at 148.6625 122.8625 180)
+		(property "Reference" "SW18"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "8b7db6f2-9dc7-465d-9586-e690148540db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "G"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "7a8263d3-4457-47df-b1d5-7bf78ce34acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13da4c96-9ee0-410d-bb06-2cd44156c8ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "047d8356-1392-4850-a023-2ec6ee1cf031")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/11d4a72e-80e0-4a28-a880-63e4425db1e7")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "72d855df-53b8-4447-84fe-27e24798ff49")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9e37d08e-12b2-469b-9bdc-f21384830ddc")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e1260be9-0075-4808-be78-6044ff9a7898")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "208defe6-8053-4759-8da4-74178aed92dc")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17b47fc1-56af-467a-a6e6-0e431cb2e292")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2cb7500d-54d9-4597-b4f6-81645587d4f1")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "47a9871f-a697-45b9-b338-056c23071c37")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8dcdf2c5-f84f-40a5-88de-d674ed865f32")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "60c72faf-a64a-48a5-a144-1c9829eeab6b")
+		(at 31.75 76.835)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2d850e7e-31ef-44fd-9e78-fc601a459308")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c30b6c5-c59e-4283-b6e0-5965f43976d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e40196b1-4e3d-4297-beb1-cdb24990f439")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e6a32be-54b3-41e0-b05a-14256408c170")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e772ddea-9618-4ba5-9b6d-ae66ae0f2121")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "11081a53-791c-415a-95f5-1c51d5a1b0ee")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9a1ebac5-f9a8-4b1b-81fe-c60684a854c6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "62b0d855-8b0e-470e-a9b7-a51fb6fc74d4")
+		(at 31.75 122.555)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f43d46b1-d957-4154-9a8a-77101334c269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d7da6b-66d5-432c-ba10-45a86d39df85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "022e6082-7489-4737-af90-01ac8528cff9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7d7cb88-4d9a-40e1-9838-1d8c43957a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "60a513bf-e37d-4ab7-b3ea-f2f3179abefa")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "51556ac8-cee0-4e75-9c7f-0d5e7b8adf0d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e4fd2a55-8377-46ed-a086-20cb4a418497")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "68b8a876-91fb-4156-8307-af68dc3e9460")
+		(at 161.29 146.05)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "002288d8-8827-495a-b323-4790a04affd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f099b21-cd09-4da8-a223-b708516ef1e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef2ba0f8-b12a-49ed-b41c-b28fc8f1a92c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c99a266-4f17-4d0f-97d8-dd6293c18f23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "c65e8d25-1ba6-4735-9b5d-0b50b8a83d2a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cd889552-601e-4d5a-b00d-5092d950612b")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3397b325-994b-4e15-bc9f-f72c786d4ece")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "6d833e2b-5a6a-435d-be8d-2eb95d3ff664")
+		(at 86.75 104.95 180)
+		(property "Reference" "SW9"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "4a4e6782-8e8c-4f01-9c40-40f44ec677c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "W"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "6fa508fc-8ea8-433f-a686-b1d116d9d38d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "927bab88-30e6-4ab8-9e3c-ed14dd3fc074")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b8a0e77-6833-48bc-b3ac-424379b31c32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/12dac95d-f4b1-4544-a32a-1b82f3ecfb66")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bd1b3a03-2dfd-4072-b0b7-c7d0ebfd39ce")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc18d8ad-2edb-4b44-8a08-47d533e6e401")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e0b2db6b-0dc7-4370-a43d-db8983bbcd64")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c8d4ffe1-eb18-4821-b0a6-9f8b4e63f3a2")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "23edd285-2b3f-46b6-9f53-791ee12f312a")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43d91ad8-d3dd-47ed-bd68-3d05bde0dd77")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c2ed925-9c47-43b4-a7db-3350e071be9d")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7659f958-bf7e-4e1c-b35a-6be9674e5bab")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "764a9c01-f346-4fdc-9683-83da6d1d2ffa")
+		(at 77.47 168.275)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5366cc51-d884-4f4b-8641-bf570c2319e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26b6e528-4ebb-4623-9ff7-84358857f40f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ce81da5-a89c-432f-9615-a00579e38807")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53579f85-b471-4b8f-ab40-14b6a285f23b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e75ccaeb-237f-467d-8044-a1e8590c09ed")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "95c719e0-af17-4173-a251-a7c90cc824e9")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "86624cb3-d59f-4dc4-b5b0-4206d31a6488")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "85a00f07-e37e-4cc1-a995-aaa89a5e2273")
+		(at 134.375 87.1437 180)
+		(property "Reference" "SW6"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "ad3eb918-3af8-4bac-8a47-b6562077e49f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "8ebd756f-7558-4af4-b1ca-b48f587e00a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a19c539f-6bfe-4932-ab74-3c951c614f0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "015b7ee6-e0e6-4f5c-928f-971968cf5128")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d12facc6-dd3d-4b64-96e6-3576067464f2")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f7fbffe1-7e5b-42a9-952e-e15dd20de33d")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cfaba6d4-f716-4ca3-b7b9-e7b20f337313")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11d94a70-5262-4eea-aad4-256af7440356")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "93a1d332-960c-4612-9a61-0577121b42ac")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a40fae9-524d-4b27-ae28-5f7a91692bd8")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40793eed-b28b-4a46-9393-533d678d6b62")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "839d0bb2-7cf5-4aa6-9dd5-fb9bd343b186")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6f54961-adac-40d9-844d-990803a5a9b6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "889d0e55-d640-4dad-8ebd-ccec8f81abeb")
+		(at 110.5625 122.8625 180)
+		(property "Reference" "SW16"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "70d05dd6-5336-4afa-94ab-0d9833c2aed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "0926e2a7-bcb4-400d-b15d-368d2b4b1cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d3e940a-c7f0-4f26-884a-ea2e44993715")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "732af8e5-3d2d-46d7-95b8-0faf3b7337aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/058a32ca-e695-4bec-a46b-7516f61bfe4a")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e7c6ae1-896b-4927-a3ef-a276b02fb5ad")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "06a32588-df4b-435c-8fe4-732691f65a84")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d929dbe6-a273-4c53-ac9c-f5e413cf4b60")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2674877a-1d5f-4ef5-b96f-44d168210602")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "11b7ddc8-20bc-4097-bf88-bc34f71ce346")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "56af0088-e55c-45af-b076-bb0a53c503e1")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09d09ffe-2d92-4d04-a97a-cccc7178fe4d")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28bea74e-9588-42e6-a451-1a33b38e04bb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "8aa4cca1-6604-4566-a94b-39105e553ba4")
+		(at 77.225 87.1437 180)
+		(property "Reference" "SW3"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "f9c55d52-4a53-44c1-b404-afca89cbf103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "3aa05599-2ea6-43bc-8e60-5e20c5294263")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ba88c53-792e-48fe-b330-1589580f6563")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "929c44ec-6c9f-4791-bc19-91e5ef6efb0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3efd57d7-1272-456a-a2e0-0d4f1380ef2e")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12c9c9fc-b4c6-4704-9927-b4023b547993")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43ffbbaf-a47b-49f0-864c-36a13d24b6e6")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6eaa3df3-d0e1-4bfd-b7df-2654d0ebba6d")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "742a6754-0950-4ec7-bfae-5bf573fc8361")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24b8c818-5bd9-4a7d-a5aa-14fdc6349372")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e13d7a94-d7be-48fe-8c26-f31d7467c1c7")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "818cc6cf-8d3e-494e-a173-c56d5bdba95b")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91a0dd7a-da00-41f2-afa0-cf9777cd07b0")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "97695d51-eb58-48c4-adbb-30bdfa792705")
+		(at 105.8 104.95 180)
+		(property "Reference" "SW10"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "9c12c07c-9284-4e1d-88ac-3d2f6822c56e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "E"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "63c444f9-9f29-4e8b-a3fe-8abd813ec4ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce6f7597-9b37-43ab-b09c-a6ed9e3e48a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ad6bbf6-94e1-4895-887e-f39fcb447a63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bcd23bde-d8ee-43a8-93ab-ac6550b1357d")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dda7c5f6-b93e-4842-8a5f-6b7cca17657a")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "daacd249-e256-4a88-8767-098e13d694c6")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "70018d9b-36a8-429f-910f-e5bc3a1afb28")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4b2ca6f5-4937-49a8-ba49-9eb78c89a7b1")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c31d632-4100-49fe-874e-0a3505bf9f74")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d11df91f-4b56-48d7-af5b-cd369df10f8f")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e90205fc-3863-4c38-9d35-183fd1c1adbb")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b71d9463-c5dc-4857-8317-96c7bad37ec5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "a7870130-05d5-41a7-836b-520c82b2b00b")
+		(at 125.095 168.275)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1f0d1e21-920c-4e56-9d67-028b2340b1fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e01a31a-7a69-4dad-b693-b8408ec5db02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3811eed-1498-4f51-8f2b-fd0aefb6eee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ed6980-9af8-41fd-9ff0-2d3514d013af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b1a42a4e-ee96-400b-83c6-aec4f287e520")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "40262048-bbd6-43e8-acb6-4bf3f8a41749")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "793088db-6011-401e-91e4-e50b97fd4cac")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "a7c0613f-bfa4-4f46-be48-c55da0835184")
+		(at 161.29 122.555)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d51b29f2-823b-4b5a-9171-8e10dd1d4262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5680aad4-66c3-4e07-8685-013fac5f716c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a92c4b01-ed22-4cc8-bad3-f6d749491edf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e1ee7b0-33f3-4752-844a-7364ca72039e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d51dfa53-ff28-43e6-adf7-9338f65cecc6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c1e53049-f1db-414a-b21a-1707777a5046")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9a7793cc-e5d1-4cbf-98a7-3b3d865cadeb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Stabilizer_Choc_V1_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "afbbe312-735c-4918-9aac-0de9894117ae")
+		(at 143.9 158.5812 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea58184d-33e1-42c5-b9a3-30e15c3def0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Stabilizer 2U"
+			(at 0 -8 0)
+			(layer "F.Fab")
+			(uuid "4b05e086-02dd-4f13-925e-0385742b8bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f24e52e-4e66-437f-a2e6-7c817b3fffc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66c11cf2-feb8-45ec-a64e-eb1b548f5db7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 15.15 3.3)
+			(end 13.6 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6b059135-24a7-4ebe-844b-1da9a5348d0b")
+		)
+		(fp_line
+			(start 15.15 -3.3)
+			(end 15.15 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6199b23b-6d14-40a3-a838-ca5f70a80808")
+		)
+		(fp_line
+			(start 13.6 9)
+			(end 10.4 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c59e40f7-a2fb-4b84-ae51-2f20bad03315")
+		)
+		(fp_line
+			(start 13.6 3.3)
+			(end 13.6 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76842574-c601-42fc-b753-bc1785bf03cb")
+		)
+		(fp_line
+			(start 10.4 9)
+			(end 10.4 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1d049811-d26d-4306-8ff8-2c3d00dad2f5")
+		)
+		(fp_line
+			(start 10.4 3.3)
+			(end 8.85 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2131a0ef-03c3-4ca6-88c2-9c09b845122d")
+		)
+		(fp_line
+			(start 8.85 3.3)
+			(end 8.85 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0633d2ff-d336-463e-a53e-7e6d2c1c6fd8")
+		)
+		(fp_line
+			(start 8.85 -3.3)
+			(end 15.15 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "de379d4d-aa28-4bc8-a064-19b77aa4f5ee")
+		)
+		(fp_line
+			(start -8.85 3.3)
+			(end -8.85 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "93c19582-5660-4978-9918-719d8b9f46f2")
+		)
+		(fp_line
+			(start -8.85 -3.3)
+			(end -15.15 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "af3733ca-8037-45ca-8e2a-110c2991bc57")
+		)
+		(fp_line
+			(start -10.4 9)
+			(end -10.4 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a09e2b44-b79b-455f-88df-2c87396ee257")
+		)
+		(fp_line
+			(start -10.4 3.3)
+			(end -8.85 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "091a45a5-973c-4f4f-8a9f-70b752c13873")
+		)
+		(fp_line
+			(start -13.6 9)
+			(end -10.4 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c9ff222e-1544-4f02-997e-91fe22fc0c08")
+		)
+		(fp_line
+			(start -13.6 3.3)
+			(end -13.6 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d8d7ec02-d60c-4478-83a8-74052c7e1772")
+		)
+		(fp_line
+			(start -15.15 3.3)
+			(end -13.6 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5684b73-8dc3-43de-886c-c6fe3b433b30")
+		)
+		(fp_line
+			(start -15.15 -3.3)
+			(end -15.15 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f8cf1cb4-249a-4221-937e-0977c8f79673")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/choc/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 -2.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "b26877ff-5f20-4ef1-bfa4-622fe2ee61a1")
+		(at 81.9875 140.6687 180)
+		(property "Reference" "SW20"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "fa9ae71a-999c-4e1f-b46e-1fa15a5761ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Z"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "970bb0b7-9e07-404f-9b33-7b29e434ead5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "380886a5-10e9-4ac4-aee1-69cd77ed2c80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a26f27-5212-4b2e-93d1-97d69119c349")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e571666f-0142-4d1f-ab83-053fb966ae78")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c2eebc04-a0dd-4436-9260-77cf9506f2de")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "856c1b40-97ef-46ab-91d8-48145b598f5f")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5e48c169-bf34-4771-9b86-a8d3b05298ce")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "70769486-b819-4635-ae2f-749aad9e8596")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b42826cc-52ce-413d-811e-787893b5e6db")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e8cbcd6c-14dc-40cc-bb05-cd88102591bb")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2899b6a0-8d81-402f-83b7-046d3616f138")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1e81d3c-5abb-4fee-acd2-743b397f8fa4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Stabilizer_Choc_V1_Plate_Mount_2U"
+		(layer "F.Cu")
+		(uuid "ba6ec9d0-5a9a-45f2-a877-8e47e99160ce")
+		(at 51.0313 140.7219 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f4fdec0-6e44-4e0a-b818-0602870da192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Stabilizer 2U"
+			(at 0 -8 0)
+			(layer "F.Fab")
+			(uuid "e9a7cdba-d593-4ab1-8777-25612c2d39c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97ff1463-f01d-47bd-8a59-c04aa76b5d48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e2cda17-43f9-4fb9-b4da-c58bb8677685")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 15.15 3.3)
+			(end 13.6 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "efbd8ec1-65aa-4f7a-8c35-003d4bd3a35d")
+		)
+		(fp_line
+			(start 15.15 -3.3)
+			(end 15.15 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a86030f-8681-4646-85dc-aac993bab978")
+		)
+		(fp_line
+			(start 13.6 9)
+			(end 10.4 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2a5e2b72-553c-4907-b254-a84c95a1d7b7")
+		)
+		(fp_line
+			(start 13.6 3.3)
+			(end 13.6 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43183cef-a97a-49dc-a9d3-8eee5e381f4c")
+		)
+		(fp_line
+			(start 10.4 9)
+			(end 10.4 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ebf035a6-8d3f-46e0-8790-c0e690ff2a09")
+		)
+		(fp_line
+			(start 10.4 3.3)
+			(end 8.85 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f6be626-0052-4f3e-9927-c06bd6a998e7")
+		)
+		(fp_line
+			(start 8.85 3.3)
+			(end 8.85 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "57d21fef-52dd-4a29-9461-8aaaf731a1b3")
+		)
+		(fp_line
+			(start 8.85 -3.3)
+			(end 15.15 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a569a3c7-6479-49cf-aa09-bf4ca78427eb")
+		)
+		(fp_line
+			(start -8.85 3.3)
+			(end -8.85 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "297ffc18-650c-4637-860c-977ad0f7188d")
+		)
+		(fp_line
+			(start -8.85 -3.3)
+			(end -15.15 -3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d0f368f7-4c85-4c5a-be81-9825a453fbb0")
+		)
+		(fp_line
+			(start -10.4 9)
+			(end -10.4 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "29d30fd3-8e2b-40cd-a25e-28736558a9ad")
+		)
+		(fp_line
+			(start -10.4 3.3)
+			(end -8.85 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ee086269-26c7-49ae-96b5-2cce751abad3")
+		)
+		(fp_line
+			(start -13.6 9)
+			(end -10.4 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42641c37-2110-4caa-bccc-4e3728b7617b")
+		)
+		(fp_line
+			(start -13.6 3.3)
+			(end -13.6 9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9e9654f8-3d65-4628-ada5-a48e0a928168")
+		)
+		(fp_line
+			(start -15.15 3.3)
+			(end -13.6 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23499eb5-c563-490d-be0e-3107cf8a9b4f")
+		)
+		(fp_line
+			(start -15.15 -3.3)
+			(end -15.15 3.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ebcdb73a-2894-4803-8205-212007313843")
+		)
+		(embedded_fonts no)
+		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/choc/KiCad/stabilizer_2u.step"
+			(offset
+				(xyz 0 0 -2.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "be79ece3-a97d-4253-bf4d-278edeaf48a4")
+		(at 101.0375 140.6687 180)
+		(property "Reference" "SW21"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "0c180cc1-27e2-4397-b716-488023fc01a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "X"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "61e73238-67b5-41c3-8d78-e45e527e8942")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e791ddd-0902-493c-8a3b-5761ce3b87eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec71700d-acc9-4673-8c7a-fe35d2a724d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/80869c9c-a81e-448b-8d5d-c9f6d53b6615")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c51f1785-b771-4de0-ba5a-37c77956b1fa")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "99c26df3-1474-49f7-a8e3-6932a3d7e8f1")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "352a357e-e2f6-4d8b-9caa-cd1321b7f731")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e360012d-6c7b-4d88-b544-f64bcf7c1ec6")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a144e1d-99bd-4b59-a5d0-66c5eab9e3da")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8a9e80bc-6048-4030-a91f-ea1bb2dabb2d")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "85006aa2-f144-4f34-96a6-415d7523690c")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ff84fc8-ba37-41d5-a0ea-1e1bdf9a62cb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "c05edb52-5de4-4474-ab63-0f86de2c5ee7")
+		(at 39.125 87.1437 180)
+		(property "Reference" "SW1"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "cb474606-ceb7-4966-9ecb-fc5b43b3093e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Esc"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "4d461d51-d1ec-4405-bdba-82dfd9531332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f3d089e-ef3a-4c38-a089-59c6c84dba57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41159c11-f33c-45bd-b18d-ffa53ae00212")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/91225905-6796-4ff2-87a0-43adfa70210e")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cfa3082d-120e-46bd-b398-b25175246d58")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "acbe6449-2cd1-48ee-80f0-2166e9447fd7")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c008da43-1ca8-4bb2-8c00-0b1c21265dca")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0d87e9cb-fb28-4122-9530-69134928b707")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bfd3c3db-04f8-4b94-bdaf-79be730183c4")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74664348-4765-4506-98ba-68e43d53b344")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2030a082-20ed-4e9a-8501-a0210593137a")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "04304752-7c4d-4389-aa04-55158f9b5856")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "cbd6bcda-1fb9-4213-9967-9570a49a90d7")
+		(at 115.325 87.1437 180)
+		(property "Reference" "SW5"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "5b1b43b9-1b99-4701-978c-7037fdcd1085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "25c3ee54-4fc4-4451-ae8e-281aae87d6bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22756ccd-52a3-4533-909e-8540e88a20c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "170c1a2a-4606-4139-868a-5d87d6cf3ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9db23db9-6de9-4dad-90f8-d62bfc980a8c")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "81923897-f0c0-42f7-9199-705120d39907")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "365bd954-5cde-42a4-a251-bb258e32cd8a")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4c6eb546-1753-4bb1-9eed-aec6962c83a5")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a327c798-c200-4288-9ef3-6cea9383752b")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e31ab92-6b17-42fa-b7ed-88f1bcc5e91e")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c95436ce-4ee8-4712-b674-99a5355f99f5")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "639971e1-2218-4b95-b68e-d2a087d872e5")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3422d9a1-de42-4c1e-9e6b-b5a155ad8179")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "cf61013b-32e8-4bf6-b871-dcc8493f934b")
+		(at 51.0313 140.7219 180)
+		(property "Reference" "SW19"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "92245620-2ab4-46fa-9d88-8ae756a8869f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Shift"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "800b3be4-cae1-408d-8f5c-f51ad830557b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d512af68-3e41-4fcc-8d35-d2958e2a0e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1ec321-3c36-4cba-99f5-e9431770d891")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4b20bbfa-186f-4b17-a411-9dd7803640f1")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "605c0f44-b92d-46b1-8b08-b37d6212ae8a")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "28ccb43a-e784-49b3-97cd-7f24b1f2308d")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6cb9ccde-df8e-4f18-9493-e79bf8283e4d")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c4b8641c-f5f3-4c69-818c-11744a6458f6")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5943801b-92cd-41cb-94db-bf4c5ab2b907")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2c3b914-2240-420c-b59a-bf2ccdf5e711")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec88cd10-aedc-4d94-a23e-0f93ac55516f")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d73ca879-4371-4aec-8197-93c04a54a2c8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "cfa6e22c-6930-4d72-90b0-cdcedc52fe65")
+		(at 161.29 76.835)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9de9aa8f-d175-40b0-94c0-73a5e160c865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8832d6a4-a55b-4bcb-b934-26b9ef099871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "061dacd5-8cbe-4e55-a637-a82fcebc8669")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89fd2ca9-05de-4b69-b74a-2697164095eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "1823ce65-b5ab-402f-8a96-b5e07fa32304")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "aaf8d5d6-710d-4584-a984-c182b20e648e")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "494a3ab6-970b-4b68-9276-0800f2325360")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "d54ce2ab-98fc-4e10-afd4-f6ab24739a68")
+		(at 112.9438 158.5812 180)
+		(property "Reference" "SW28"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "5267551d-e6f6-4a04-9150-d2e88f55fe06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NoConv"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "713078e9-a071-4542-bd6b-ca510c313a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "149c5f5d-704f-4219-839b-0182eb0166b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "044243c8-b1bb-4401-8db4-c5c21fbaee75")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/80ae135b-7fde-4cc8-897a-9431615f8c6d")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2817ca5c-80e6-4b3a-89c5-eb05e8188c2c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "709fe045-3824-45fe-8cc7-1d4a1ff489e2")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed810afe-ecf9-4550-9534-9fc3506edbf3")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a1f8357-778c-4073-a960-f954b21675f1")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ba1be06-1619-415b-9ecf-7d69b6c34972")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ded6575-93cb-4340-8b1f-ce952f437b9e")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09efb09a-0bdb-41d3-8c6c-6be836fc93fa")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a19c8e2b-1a43-43dc-bae4-3608aff9e7fe")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "d665d888-e652-490b-934d-fde7b33df8e1")
+		(at 120.0875 140.6687 180)
+		(property "Reference" "SW22"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "83ede812-931b-4aed-af7b-9056b1c3acba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "9197d8c9-a1c8-463c-84ab-57b0039d49d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f21099a3-ac60-4b91-be6d-c09985378a03")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0177422f-c3fb-4165-bc25-7454cb8ddd13")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ed782e65-5e75-4654-bb93-d78d68e33953")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4cbd5429-4ad8-4a7a-9666-87fc6cfeb404")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e8e50647-17ae-4148-aa0b-734e66ca8f7e")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e8a24d74-f3eb-4dd2-a826-7858da93ebbd")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00033036-06f0-47c6-9265-a2e3b140b51e")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee36c860-4834-48eb-8d72-6bf9b20d3471")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7e188af-c012-4819-a834-402102ddab06")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20983b29-89b3-4fef-9589-e8ada7365a7e")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "437742e3-b478-4180-a631-c4fdf234f1fc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "e3c7cd26-90c6-4057-9bcd-d0aa01eeeac3")
+		(at 125.095 76.835)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64d4f779-a241-4724-9e47-d1e9584bd6d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6c2364d-013a-45e3-889b-6b8b22a543cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ab1c1e4-fcaa-4d9a-8609-01d17ab1d492")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c932d83-40e6-45da-99d4-d1a8e6a3cdc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "22176c80-d13b-465e-8c20-d229533749ae")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "95bc5505-474d-43e2-8826-433d207b0017")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9ec82467-78c2-48f9-9345-ee6c23a400a6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "e5e81f96-00cf-4676-bcd4-4ca68db796fb")
+		(at 161.29 168.275)
+		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M2")
+		(property "Reference" "REF**"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02e5e92b-b30d-46f2-a62f-ccab8198f568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50d734ca-e97f-42dd-93fb-a78008076cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e112cf5d-aa93-4a3f-8405-743b0e46e5fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b0bea46-4fdd-46df-9146-a898df6c6736")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d7e11e88-d4e8-4131-b0e3-de4818c8e9bd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5ca2759e-c3db-4940-8c83-aa5d6d554c17")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b4c0c0de-12f9-4ac5-8954-994c401c0c60")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "ec571f52-11d0-42f4-bc6e-958a21635b3c")
+		(at 153.425 87.1437 180)
+		(property "Reference" "SW24"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "55e1c36a-ecf9-42da-b8e5-da0dfea6333f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "6"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "4a4d33dc-6270-415c-b76d-feade647c240")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c01bac0-7f13-4efb-8364-93798d4adf1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96282252-37c7-48a8-b83b-5f92f1e99a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3451016e-0e43-4901-8c08-32f78e023c76")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "820e60f3-2b58-47fe-95f9-01ef050bc3e7")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "df6ebc4c-29c2-4a6f-a622-ba739e06658c")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ef70b3dc-3cd8-4a8d-8a59-da251f4cfd0d")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6aace7f3-6d5c-459d-8064-c65ccb272081")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d1887ca0-4eaa-4b66-8827-42cb4c42f98b")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d270e671-33f0-4a2e-9239-23e1a38dda93")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec3dd43b-fe2a-41f3-98d8-ed5e4b816447")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14a88b4d-65fa-4389-acc6-340393b8cc3c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "f6683077-6a38-4406-b8d1-9192b359d262")
+		(at 96.275 87.1437 180)
+		(property "Reference" "SW4"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "384f5750-d5fc-466e-b2f6-e285a11ad7af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "3b951a0d-58e5-403c-b273-b02b664fb19c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cd218a1-7801-43c7-abd8-f64748b77cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4799ad-880d-4d7c-a038-4e6a5ecf0886")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7377d204-e1f9-48c9-b149-41ea0e63dd38")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3a2d51f6-91da-4d87-9a59-5ed57c92e73c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c025c926-41e5-4ed9-afa9-671394fce6eb")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f4055525-1236-403f-89c8-483e070a1ad7")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53034a9c-f519-4355-a572-e9a59d48b007")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ffa0f3b1-7765-4068-9950-3cf31008e2d9")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cdde528-a467-4f79-a363-20ffaa2e3113")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fcd368a5-d598-4e92-9071-698bf617cf3e")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aae86ccc-6682-4c61-96fb-9efccc5a5420")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "KBD_BrownSugar:Switch_Hole"
+		(layer "F.Cu")
+		(uuid "f8356258-367d-4030-b6bb-6833f71d10d8")
+		(at 46.2688 122.8625 180)
+		(property "Reference" "SW13"
+			(at 0 -1 180)
+			(layer "F.Fab")
+			(uuid "689581a3-a91d-4757-a15b-8b9ebe6a5d7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Ctrl"
+			(at 0 1 180)
+			(layer "F.Fab")
+			(uuid "deaf0030-d526-47d4-a81c-d76a6ad24b5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e59ddc24-6712-48d8-855e-3b3dc08473bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "974a5249-e429-4d07-9536-03d6226d76df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/da00cab4-1c63-4836-92d1-e47ebb022c17")
+		(sheetname "/")
+		(sheetfile "KiCad_Kailh_L_top.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 7 7)
+			(end 7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7b27d5d1-939d-41f2-8824-0b5f10db7e71")
+		)
+		(fp_line
+			(start 7 -7)
+			(end -7 -7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "59b5a75d-b5b6-4ea2-a661-7727391d07b6")
+		)
+		(fp_line
+			(start -7 7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2de7ab0-4b03-4af1-93e6-7d9b6904ca5c")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "419cb0bb-8dc2-4c7a-b8fb-f21a65a359a2")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b319f70c-5de4-4146-8062-fa1d4ebfb16e")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "13c4cafd-b434-4630-aec7-91361ad75c31")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f521e7fd-4715-4cb3-bd29-e772d642dbd8")
+		)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab4b166e-c151-4a1d-9cae-24edfda360a9")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 28.575 78.58125)
+		(end 28.575 166.6875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b8b8e23-1bae-4d75-a82c-02923a0ebcd4")
+	)
+	(gr_arc
+		(start 28.575 78.58125)
+		(mid 29.969904 75.213654)
+		(end 33.3375 73.81875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e5cababc-7133-4a07-a78a-a476ea39ccde")
+	)
+	(gr_line
+		(start 33.3375 73.81875)
+		(end 159.54375 73.81875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d20005b-1dd7-47c1-a4e7-84057a050b71")
+	)
+	(gr_arc
+		(start 33.3375 171.45)
+		(mid 29.969904 170.055096)
+		(end 28.575 166.6875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e29edf46-25d0-403b-a013-08e5ffb63152")
+	)
+	(gr_line
+		(start 33.3375 171.45)
+		(end 159.54375 171.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a31b8e47-9882-4da0-891c-48d6243e3f8c")
+	)
+	(gr_arc
+		(start 159.54375 73.81875)
+		(mid 162.911346 75.213654)
+		(end 164.30625 78.58125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb03332f-4afa-42e0-b8aa-5efdff6467c6")
+	)
+	(gr_arc
+		(start 164.30625 166.6875)
+		(mid 162.911346 170.055096)
+		(end 159.54375 171.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b24c827-4024-4648-868c-9295cc7440e8")
+	)
+	(gr_line
+		(start 164.30625 166.6875)
+		(end 164.30625 78.58125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d106fda3-ae73-4530-b4b0-800c41f1abda")
+	)
+	(embedded_fonts no)
+)

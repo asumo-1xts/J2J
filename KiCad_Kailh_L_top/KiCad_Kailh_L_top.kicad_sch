@@ -1818,6 +1818,12 @@
 		(uuid "0ad37e7b-2efc-4439-bde2-478e94ff0e4e")
 	)
 	(junction
+		(at 152.4 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16626991-7ed9-49b6-83de-d97b447c8fd9")
+	)
+	(junction
 		(at 165.1 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1846,6 +1852,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "229069f1-99be-4c08-9804-6a45cafab616")
+	)
+	(junction
+		(at 146.05 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0bfbdd-8224-48d7-adb7-b8a0803bd976")
+	)
+	(junction
+		(at 146.05 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e04d5a5-6334-409f-a0a3-75233fb62261")
 	)
 	(junction
 		(at 63.5 146.05)
@@ -1950,6 +1968,12 @@
 		(uuid "884590e1-9677-4c84-b421-73a386da3986")
 	)
 	(junction
+		(at 152.4 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898e921e-1d48-49f2-a643-8fa800e431f3")
+	)
+	(junction
 		(at 50.8 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2040,12 +2064,6 @@
 		(uuid "e2cebeab-0412-4ac2-9e79-9ff17f9b20d5")
 	)
 	(junction
-		(at 114.3 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e63a5e4d-1340-4a1d-b8fd-f9eb161e3cca")
-	)
-	(junction
 		(at 177.8 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2088,12 +2106,32 @@
 		(uuid "fb489669-b9af-4add-8cb0-e77cce0e207e")
 	)
 	(no_connect
+		(at 74.93 185.42)
+		(uuid "055ef8ca-8b6f-48c6-947d-e74dc4858ca6")
+	)
+	(no_connect
 		(at 127 170.18)
 		(uuid "0cf5cfc2-59c8-4318-91c9-96b9fbe8eff6")
 	)
 	(no_connect
+		(at 74.93 160.02)
+		(uuid "18bd6a17-b7c7-4a35-be1c-8e914257346b")
+	)
+	(no_connect
+		(at 74.93 187.96)
+		(uuid "6f4f2fd2-a476-49ab-805c-f8204042c6ec")
+	)
+	(no_connect
 		(at 127 165.1)
 		(uuid "96c4fa47-b759-41e8-8242-10e5d3762b47")
+	)
+	(no_connect
+		(at 44.45 162.56)
+		(uuid "ebb2952e-add7-426e-aa4c-5e4d66981e96")
+	)
+	(no_connect
+		(at 44.45 160.02)
+		(uuid "f6c63176-1e7e-4754-9f66-633318f99d3c")
 	)
 	(wire
 		(pts
@@ -2297,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 177.8) (xy 139.7 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f7281b-a84d-479d-a85f-3023ba27bb1d")
+	)
+	(wire
+		(pts
 			(xy 215.9 67.31) (xy 215.9 69.85)
 		)
 		(stroke
@@ -2314,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "1c3b3aa0-c71d-4d3b-a5f3-84d63605c34a")
+	)
+	(wire
+		(pts
+			(xy 165.1 179.07) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9eeabc-2f0f-4f38-a7e0-d5a517dcb1f9")
 	)
 	(wire
 		(pts
@@ -2404,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "28b97d91-ee15-4da1-aa8d-ebb4b0f57aa8")
+	)
+	(wire
+		(pts
+			(xy 146.05 187.96) (xy 152.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299069bb-df07-4528-8c31-e3cabb8ddfc1")
 	)
 	(wire
 		(pts
@@ -2524,16 +2592,6 @@
 			(type default)
 		)
 		(uuid "3eaa22d0-24b0-4ba0-ab77-1f6bb3e657a4")
-	)
-	(wire
-		(pts
-			(xy 88.9 177.8) (xy 88.9 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407a9cc7-2757-4268-bcae-15916f2afa29")
 	)
 	(wire
 		(pts
@@ -2727,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 187.96) (xy 152.4 187.96)
+			(xy 139.7 187.96) (xy 146.05 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2764,16 +2822,6 @@
 			(type default)
 		)
 		(uuid "58d830b6-5807-4561-a6ee-bc932c25b198")
-	)
-	(wire
-		(pts
-			(xy 114.3 177.8) (xy 114.3 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58dc08f4-3382-4213-9108-bd92980ca63b")
 	)
 	(wire
 		(pts
@@ -3027,13 +3075,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 187.96) (xy 114.3 187.96)
+			(xy 165.1 177.8) (xy 162.56 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a4c9b68-ebf9-4f68-8054-95f3a32ea549")
+		(uuid "7cd4f243-fb97-4b83-bdac-c549721057e2")
 	)
 	(wire
 		(pts
@@ -3084,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "7f536a03-bb2e-4311-a864-ec27f405b45a")
+	)
+	(wire
+		(pts
+			(xy 152.4 177.8) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa1f82f-2a7d-4038-9e8a-3e1aa9fd8995")
 	)
 	(wire
 		(pts
@@ -3167,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 177.8) (xy 139.7 177.8)
+			(xy 152.4 177.8) (xy 146.05 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3437,16 +3495,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 91.44 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28c5f12-dc9b-4384-8cb4-b8644acc6474")
-	)
-	(wire
-		(pts
 			(xy 101.6 146.05) (xy 139.7 146.05)
 		)
 		(stroke
@@ -3484,16 +3532,6 @@
 			(type default)
 		)
 		(uuid "b50d86ec-644e-4f99-9ca4-8fdf1839bfd9")
-	)
-	(wire
-		(pts
-			(xy 99.06 177.8) (xy 104.14 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c543f3-f3f6-444f-b218-ba1246b29f32")
 	)
 	(wire
 		(pts
@@ -3607,16 +3645,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 187.96) (xy 91.44 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14bb133-d922-46f4-a5e0-bc9fc5a80000")
-	)
-	(wire
-		(pts
 			(xy 101.6 133.35) (xy 101.6 135.89)
 		)
 		(stroke
@@ -3674,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "cd931a9a-3228-45cd-a301-6afcc9a59041")
-	)
-	(wire
-		(pts
-			(xy 74.93 185.42) (xy 88.9 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce605f15-6407-4b26-bcb4-8f428bf7b094")
 	)
 	(wire
 		(pts
@@ -3867,16 +3885,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 177.8) (xy 114.3 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3713680-4d22-4d4d-a056-66e7b0b5084a")
-	)
-	(wire
-		(pts
 			(xy 215.9 69.85) (xy 254 69.85)
 		)
 		(stroke
@@ -3957,6 +3965,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 187.96) (xy 165.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdd53de-7e78-489f-b20e-7b31b33a17b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 186.69) (xy 165.1 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfcc0f1-fd42-4e0f-8ea4-b7095b597312")
+	)
+	(wire
+		(pts
 			(xy 139.7 133.35) (xy 139.7 135.89)
 		)
 		(stroke
@@ -3964,16 +3992,6 @@
 			(type default)
 		)
 		(uuid "eea5a1b7-e22b-43c3-baee-b37306687fb1")
-	)
-	(wire
-		(pts
-			(xy 99.06 187.96) (xy 104.14 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ed701b-0bbd-47c1-b20c-54f38377326f")
 	)
 	(wire
 		(pts
@@ -4603,7 +4621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 182.245 38.1 0)
 			(effects
 				(font
@@ -4655,7 +4673,7 @@
 			(uuid "b4acf4b9-8b3f-4c65-9c64-0d5e3f6991b6")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D4")
 					(unit 1)
@@ -4689,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 171.45 77.47 0)
 			(effects
 				(font
@@ -4723,154 +4741,9 @@
 			(uuid "8518a7e9-846a-4a00-82d0-ac1034ffa477")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 107.95 187.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05aa7442-3297-45db-9f5d-5dd6e0cb4122")
-		(property "Reference" "D32"
-			(at 109.5375 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 109.5375 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 107.95 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 107.95 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c3f869c-006b-4023-8d8c-9c3113ac9187")
-		)
-		(pin "2"
-			(uuid "67107f94-bb1c-4662-b330-89f85409d80f")
-		)
-		(instances
-			(project "KiCad_L"
-				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 187.96 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08fff59b-a54d-4b3f-897c-eb7d63fdbc9f")
-		(property "Reference" "R2"
-			(at 95.25 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 95.25 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 95.25 189.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a527c55-4c87-43ff-b32d-a9de2a826fe6")
-		)
-		(pin "1"
-			(uuid "4962c162-fe93-4f27-88be-61b6e8eb2c49")
-		)
-		(instances
-			(project "KiCad_L"
-				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4902,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -4936,7 +4809,7 @@
 			(uuid "8513cc9b-d3e7-4c79-b2b1-c11555f0703d")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW14")
 					(unit 1)
@@ -4970,7 +4843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 247.65 77.47 0)
 			(effects
 				(font
@@ -5004,7 +4877,7 @@
 			(uuid "a3b34f1d-06b5-42a4-aaab-111cb0dc1de7")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW18")
 					(unit 1)
@@ -5038,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -5072,7 +4945,7 @@
 			(uuid "a708c112-95d1-46c0-bc75-7771b2a5990f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW9")
 					(unit 1)
@@ -5139,9 +5012,89 @@
 			(uuid "8a447a9d-3462-430c-9eee-6b8f3a9e137f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 165.1 182.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24954a60-f93b-4fca-8c9c-da6ea9cf74ec")
+		(property "Reference" "D31"
+			(at 167.64 183.1974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 167.64 185.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d943303-7a58-4dd0-953b-ff165eaacc25")
+		)
+		(pin "2"
+			(uuid "42e67878-c348-4658-a10e-e01637d90744")
+		)
+		(instances
+			(project "KiCad_Kailh_L_top"
+				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5175,7 +5128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.345 88.9 0)
 			(effects
 				(font
@@ -5227,7 +5180,7 @@
 			(uuid "570adc72-000d-462a-bf55-0336ecfb2c04")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D17")
 					(unit 1)
@@ -5237,7 +5190,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 177.8 0)
+		(at 146.05 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5246,7 +5199,7 @@
 		(fields_autoplaced yes)
 		(uuid "267d7f55-9fb5-4aad-b8d9-4fe6a3c87fa8")
 		(property "Reference" "#PWR07"
-			(at 139.7 181.61 0)
+			(at 146.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5208,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.7 172.72 0)
+			(at 146.05 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 177.8 0)
+			(at 146.05 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 177.8 0)
+			(at 146.05 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 177.8 0)
+			(at 146.05 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5246,7 @@
 			(uuid "c1c56042-93f9-4af2-a04d-50baecabf16b")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR07")
 					(unit 1)
@@ -5327,7 +5280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -5361,7 +5314,7 @@
 			(uuid "ab1873cc-df33-48bf-949f-3dde9b19c325")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW23")
 					(unit 1)
@@ -5428,9 +5381,77 @@
 			(uuid "be0fbd7c-b920-498e-8fda-58a0937fe9f8")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d547d8c-064b-4598-a309-7e50cecde88a")
+		(property "Reference" "R1"
+			(at 158.75 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 158.75 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 158.75 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fc24380-9d29-40bd-acf1-a33d9284828d")
+		)
+		(pin "1"
+			(uuid "faef7668-959a-42df-b315-5890c3c6a776")
+		)
+		(instances
+			(project "KiCad_Kailh_L_top"
+				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 209.55 52.07 0)
 			(effects
 				(font
@@ -5496,7 +5517,7 @@
 			(uuid "d0c747c7-13bb-4518-91f5-742c9c71671d")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW11")
 					(unit 1)
@@ -5532,7 +5553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.345 63.5 0)
 			(effects
 				(font
@@ -5584,7 +5605,7 @@
 			(uuid "5db7fc20-5c23-49fb-a70c-7c41c283531f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D11")
 					(unit 1)
@@ -5620,7 +5641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 182.245 139.7 0)
 			(effects
 				(font
@@ -5672,7 +5693,7 @@
 			(uuid "51cb7536-ee67-47cf-9d3d-799d10fefd6f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D28")
 					(unit 1)
@@ -5749,7 +5770,7 @@
 			(uuid "e0d60cac-d9e9-458c-97ba-9a915c66ec8b")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "J1")
 					(unit 1)
@@ -5783,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 247.65 102.87 0)
 			(effects
 				(font
@@ -5817,7 +5838,7 @@
 			(uuid "6bd2560a-1c0b-44f4-994f-b28a25f1970f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW24")
 					(unit 1)
@@ -5853,7 +5874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.045 63.5 0)
 			(effects
 				(font
@@ -5905,7 +5926,7 @@
 			(uuid "dc211d84-0262-456a-bdae-a060fa71a969")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D8")
 					(unit 1)
@@ -5941,7 +5962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 258.445 38.1 0)
 			(effects
 				(font
@@ -5993,7 +6014,7 @@
 			(uuid "e348bdc8-a286-4532-a904-a5b710ea8f8e")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D6")
 					(unit 1)
@@ -6027,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 133.35 26.67 0)
 			(effects
 				(font
@@ -6061,7 +6082,7 @@
 			(uuid "d4f8a639-9e66-4807-80b9-1416d3bac919")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW3")
 					(unit 1)
@@ -6128,7 +6149,7 @@
 			(uuid "88c99786-13a0-4d21-bfee-84062bedef61")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR08")
 					(unit 1)
@@ -6162,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -6196,7 +6217,7 @@
 			(uuid "a8542e5f-f5c8-4192-aecc-f654f397c165")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW19")
 					(unit 1)
@@ -6232,7 +6253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 67.945 114.3 0)
 			(effects
 				(font
@@ -6284,7 +6305,7 @@
 			(uuid "11666daa-aca2-438b-97e1-42d970904ae1")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D19")
 					(unit 1)
@@ -6320,7 +6341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 67.945 63.5 0)
 			(effects
 				(font
@@ -6372,7 +6393,7 @@
 			(uuid "de0463ca-63c8-455e-b6f5-9cd6458a5cdf")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D7")
 					(unit 1)
@@ -6406,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 57.15 128.27 0)
 			(effects
 				(font
@@ -6440,7 +6461,7 @@
 			(uuid "824d87cc-e3b9-430d-a88d-afbf160a57bd")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW25")
 					(unit 1)
@@ -6507,7 +6528,7 @@
 			(uuid "75a54970-6152-40a1-b9ef-a986e60c42ab")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR02")
 					(unit 1)
@@ -6517,7 +6538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 187.96 0)
+		(at 146.05 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6525,8 +6546,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56c6483b-7fb2-4b88-be3a-8a9ccbcab1a4")
-		(property "Reference" "#PWR010"
-			(at 139.7 194.31 0)
+		(property "Reference" "#PWR09"
+			(at 146.05 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 193.04 0)
+			(at 146.05 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 187.96 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 187.96 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 187.96 0)
+			(at 146.05 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,9 +6594,9 @@
 			(uuid "453274dc-7d4e-47a2-b352-9c793d545537")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.045 139.7 0)
 			(effects
 				(font
@@ -6661,7 +6682,7 @@
 			(uuid "1c030d9b-99a9-4c05-9e06-1c6d0af26346")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D26")
 					(unit 1)
@@ -6697,7 +6718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 258.445 63.5 0)
 			(effects
 				(font
@@ -6749,7 +6770,7 @@
 			(uuid "cbe5b8f0-5452-43dc-a8fa-073dc0b22561")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D12")
 					(unit 1)
@@ -6783,7 +6804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 95.25 26.67 0)
 			(effects
 				(font
@@ -6817,7 +6838,7 @@
 			(uuid "3d6d381b-0728-4359-8987-ffe1ce2597f4")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW2")
 					(unit 1)
@@ -6851,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -6885,77 +6906,9 @@
 			(uuid "7209abc5-66cb-43a6-a90c-d91d04aef36d")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b32ba66-7550-4dbd-89e5-52ab434a125c")
-		(property "Reference" "R1"
-			(at 95.25 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 95.25 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 95.25 179.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9c76f3b-eda3-4541-85e4-a564635eda32")
-		)
-		(pin "1"
-			(uuid "b0bceb8d-7af9-4c68-9597-9d6964b95d6d")
-		)
-		(instances
-			(project "KiCad_L"
-				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7023,7 +6976,7 @@
 			(uuid "7d636198-bf10-4b15-b000-127f648e0ab8")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "C2")
 					(unit 1)
@@ -7059,7 +7012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.045 38.1 0)
 			(effects
 				(font
@@ -7111,7 +7064,7 @@
 			(uuid "00d51673-8011-44ef-8bbb-118a2cc84d33")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D2")
 					(unit 1)
@@ -7145,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 171.45 26.67 0)
 			(effects
 				(font
@@ -7179,7 +7132,7 @@
 			(uuid "a258378a-965d-4037-9346-ffe3a499934d")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW4")
 					(unit 1)
@@ -7213,7 +7166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 95.25 128.27 0)
 			(effects
 				(font
@@ -7247,7 +7200,7 @@
 			(uuid "6a01cf8a-a82b-4a62-af13-546a673a3294")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW26")
 					(unit 1)
@@ -7283,7 +7236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 258.445 114.3 0)
 			(effects
 				(font
@@ -7335,7 +7288,7 @@
 			(uuid "e04e5f19-0ce6-41f0-8303-aab71518e960")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D24")
 					(unit 1)
@@ -7369,7 +7322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -7403,7 +7356,7 @@
 			(uuid "3b1c0dc0-9d6b-4e00-bced-eb54dc26623c")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW21")
 					(unit 1)
@@ -7437,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 171.45 128.27 0)
 			(effects
 				(font
@@ -7471,7 +7424,7 @@
 			(uuid "f3c8d199-645b-4b9b-bf3a-a49d2d47c57e")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW28")
 					(unit 1)
@@ -7505,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 209.55 128.27 0)
 			(effects
 				(font
@@ -7539,7 +7492,7 @@
 			(uuid "aa15b299-bcd5-40da-b812-8eb982c79dea")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW29")
 					(unit 1)
@@ -7606,7 +7559,7 @@
 			(uuid "e1e1deaa-83a4-46f4-842c-4155cd4f32cf")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR04")
 					(unit 1)
@@ -7642,7 +7595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 182.245 114.3 0)
 			(effects
 				(font
@@ -7694,7 +7647,7 @@
 			(uuid "5346f00a-9d11-44d9-8a9e-7b7039af6c2c")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D22")
 					(unit 1)
@@ -7730,7 +7683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 182.245 63.5 0)
 			(effects
 				(font
@@ -7782,7 +7735,7 @@
 			(uuid "9b0096ed-ace4-43a4-bfd9-812b8e447470")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D10")
 					(unit 1)
@@ -7816,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 57.15 26.67 0)
 			(effects
 				(font
@@ -7850,7 +7803,7 @@
 			(uuid "a7a796fe-134d-4ab0-95e9-eea92cdf0de4")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW1")
 					(unit 1)
@@ -7886,7 +7839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.145 114.3 0)
 			(effects
 				(font
@@ -7938,7 +7891,7 @@
 			(uuid "3e3cf039-2978-43dd-93bc-d8ab388e6343")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D21")
 					(unit 1)
@@ -7974,7 +7927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.045 114.3 0)
 			(effects
 				(font
@@ -8026,7 +7979,7 @@
 			(uuid "3b90bc31-1fc8-422b-931f-81f1f9b3aead")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D20")
 					(unit 1)
@@ -8060,7 +8013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 247.65 52.07 0)
 			(effects
 				(font
@@ -8094,7 +8047,7 @@
 			(uuid "b26efcb9-828a-46af-bdc0-cd03587a3630")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW12")
 					(unit 1)
@@ -8130,7 +8083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.145 63.5 0)
 			(effects
 				(font
@@ -8182,7 +8135,7 @@
 			(uuid "17c27672-8dcb-4f7d-8b5d-7480f5588b97")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D9")
 					(unit 1)
@@ -8216,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -8250,7 +8203,7 @@
 			(uuid "dd3682bc-afac-4042-9c59-955f94a2c9d5")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW5")
 					(unit 1)
@@ -8384,76 +8337,9 @@
 			(uuid "47432571-484b-4fb8-9343-c34a94c26e6e")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8fbff45-dbb1-4cf2-a07d-e12f4884bc34")
-		(property "Reference" "#PWR09"
-			(at 120.65 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 187.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4953058b-5c8b-4cf0-96c4-5d6407e9addf")
-		)
-		(instances
-			(project "KiCad_L"
-				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8487,7 +8373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.145 139.7 0)
 			(effects
 				(font
@@ -8539,7 +8425,7 @@
 			(uuid "521f4b36-b083-413f-a0a0-88afb8ca73f4")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D27")
 					(unit 1)
@@ -8573,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -8607,7 +8493,7 @@
 			(uuid "846aa7ee-0942-480b-90f4-356a5df43b06")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW15")
 					(unit 1)
@@ -8625,7 +8511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8610bd3-b1ab-4109-86cf-619f05a4c97d")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 154.94 181.6099 90)
 			(effects
 				(font
@@ -8695,9 +8581,9 @@
 			(uuid "9212d33f-b78e-4b1e-8dae-d8582d2f172d")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 67.945 38.1 0)
 			(effects
 				(font
@@ -8783,7 +8669,7 @@
 			(uuid "7569f5a9-2370-4c9a-b783-52644bda66cb")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D1")
 					(unit 1)
@@ -8817,7 +8703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -8851,7 +8737,7 @@
 			(uuid "14306f0e-8353-4f16-92d0-1235bc84e523")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW10")
 					(unit 1)
@@ -8918,7 +8804,7 @@
 			(uuid "7969ddf1-4684-48d2-8b9d-02a89bf145f1")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR03")
 					(unit 1)
@@ -8952,7 +8838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -8986,87 +8872,9 @@
 			(uuid "a25e77a6-ac85-4c37-b5d1-a88fb7ceb56c")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 107.95 177.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c620f110-2afb-4625-bbf9-7079d36f26c8")
-		(property "Reference" "D30"
-			(at 109.5375 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 109.5375 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 107.95 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 107.95 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afa9a6bc-098c-4979-9a80-3dc62fce7fef")
-		)
-		(pin "2"
-			(uuid "1114a235-da4b-4ae2-a66f-18f01517a185")
-		)
-		(instances
-			(project "KiCad_L"
-				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -9098,7 +8906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 247.65 26.67 0)
 			(effects
 				(font
@@ -9132,7 +8940,7 @@
 			(uuid "fd4075e2-1f97-4226-8668-51e86c1229e3")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW6")
 					(unit 1)
@@ -9168,7 +8976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 67.945 139.7 0)
 			(effects
 				(font
@@ -9220,7 +9028,7 @@
 			(uuid "e77e161d-f165-464e-843a-1df19c22bd21")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D25")
 					(unit 1)
@@ -9287,7 +9095,7 @@
 			(uuid "769fda52-00f3-4157-8040-c9277667e3ce")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "#PWR01")
 					(unit 1)
@@ -9323,7 +9131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.145 38.1 0)
 			(effects
 				(font
@@ -9375,7 +9183,7 @@
 			(uuid "44a88068-f639-41b8-98ea-aeabbd9740af")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D3")
 					(unit 1)
@@ -9411,7 +9219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.045 88.9 0)
 			(effects
 				(font
@@ -9463,7 +9271,7 @@
 			(uuid "d636e145-c141-42d3-b304-a289c93dc9cd")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D14")
 					(unit 1)
@@ -9497,7 +9305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -9531,7 +9339,7 @@
 			(uuid "04c9a17d-afb8-4344-bb99-e588c5a0b1bc")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW13")
 					(unit 1)
@@ -9567,7 +9375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 182.245 88.9 0)
 			(effects
 				(font
@@ -9619,7 +9427,7 @@
 			(uuid "334a8690-7f50-47ca-b590-08d3425bc82e")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D16")
 					(unit 1)
@@ -9655,7 +9463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 67.945 88.9 0)
 			(effects
 				(font
@@ -9707,7 +9515,7 @@
 			(uuid "6a7b97aa-d997-44d7-8bad-4b31add31443")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D13")
 					(unit 1)
@@ -9743,7 +9551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.345 38.1 0)
 			(effects
 				(font
@@ -9795,7 +9603,7 @@
 			(uuid "ebee61e4-d119-4c18-8858-60f58bbe59fc")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D5")
 					(unit 1)
@@ -9829,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -9863,7 +9671,7 @@
 			(uuid "f3cdf701-90aa-45db-ae6c-2fac618c52f8")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW17")
 					(unit 1)
@@ -9899,7 +9707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 258.445 88.9 0)
 			(effects
 				(font
@@ -9951,7 +9759,7 @@
 			(uuid "98c9d274-f9db-454a-af55-e01eb7fbade0")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D18")
 					(unit 1)
@@ -9987,7 +9795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.345 114.3 0)
 			(effects
 				(font
@@ -10039,7 +9847,7 @@
 			(uuid "324e084b-eb0d-4a7a-8065-3504aa238b8f")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D23")
 					(unit 1)
@@ -10073,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -10107,7 +9915,7 @@
 			(uuid "ee2b4328-91f8-494f-b730-82afb95bf35e")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW20")
 					(unit 1)
@@ -10143,7 +9951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.145 88.9 0)
 			(effects
 				(font
@@ -10195,7 +10003,7 @@
 			(uuid "3ed9f6ff-b113-4eae-8667-2e376fe0d401")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D15")
 					(unit 1)
@@ -10265,7 +10073,7 @@
 			(uuid "28bbcbb8-dfcf-45e4-aa38-eaf3eb40a0f6")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "C1")
 					(unit 1)
@@ -10301,7 +10109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.345 139.7 0)
 			(effects
 				(font
@@ -10353,7 +10161,7 @@
 			(uuid "0fcd56e0-b5c2-4e45-ad8f-9738d82c3b81")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "D29")
 					(unit 1)
@@ -10387,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -10421,7 +10229,7 @@
 			(uuid "3b633465-bbae-44de-a8bd-8663473728be")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW22")
 					(unit 1)
@@ -10455,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "KBD_BrownSugar:Switch_Hole"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -10489,7 +10297,7 @@
 			(uuid "c8fcea6b-3715-4ca2-82d6-fc3b72ee4412")
 		)
 		(instances
-			(project "KiCad_L"
+			(project "KiCad_Kailh_L_top"
 				(path "/63624602-85c8-4a35-8071-08b2ca90618c"
 					(reference "SW8")
 					(unit 1)
