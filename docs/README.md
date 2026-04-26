@@ -12,9 +12,15 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 
 </div>
 
-## Concept
+## Concept / Spec
 
-- シンプルな分割キーボード
-- US配列 + 変換キー，無変換キー，ISO Enterキー
-- USB Type-Cによる有線接続
-- ホットスワップおよびVialに対応
+テンキーレスをそのまま2つに割ったような、シンプルな分割キーボード
+
+|                 |                            |
+| --------------- | :------------------------- |
+| 配列            | US ＋ 変換キー，無変換キー |
+| Enterキー       | ISO                        |
+| 接続方法        | 有線のみ（USB Type-C）     |
+| ホットスワップ  | 対応                       |
+| リマッピング    | 対応（Vial）               |
+| LEDライティング | 非対応                     |
