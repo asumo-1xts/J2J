@@ -132,7 +132,7 @@
 	(net 46 "Col4")
 	(net 47 "Col5")
 	(net 48 "unconnected-(U1-RAW-Pad24)")
-	(net 49 "unconnected-(U1-RST-Pad22)")
+	(net 49 "Net-(J2-Pin_1)")
 	(net 50 "Net-(D33-A)")
 	(net 51 "unconnected-(U1-D0{slash}RX-Pad2)")
 	(net 52 "SDA")
@@ -1494,7 +1494,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edb174eb-87b8-4c23-8c25-a1dcc795a555")
+			(uuid "80e4d134-07ab-467f-8ef9-442cc6851f9a")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -1504,7 +1504,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edb174eb-87b8-4c23-8c25-a1dcc795a555")
+			(uuid "b348554c-6dd0-4cb6-a6bf-9f6e9c803ccd")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -1514,7 +1514,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edb174eb-87b8-4c23-8c25-a1dcc795a555")
+			(uuid "b0505c37-4045-4044-ad54-d4e8c2c4cf3b")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74 180)
@@ -1525,7 +1525,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edb174eb-87b8-4c23-8c25-a1dcc795a555")
+			(uuid "b80e7f92-8405-4246-861a-0df36345ccb0")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34 180)
@@ -1536,7 +1536,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edb174eb-87b8-4c23-8c25-a1dcc795a555")
+			(uuid "9cf2e017-f58b-4741-8ff1-c608ff664a2f")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28)
@@ -1558,7 +1558,7 @@
 			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc0f37fb-b65a-4284-bed1-045f031a20e9")
+			(uuid "f31bc959-d053-43a1-b5d4-ae6e5c651b05")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -1568,7 +1568,7 @@
 			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc0f37fb-b65a-4284-bed1-045f031a20e9")
+			(uuid "4b933c4b-cc29-492e-8de2-d8d37cc0df85")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -1578,7 +1578,7 @@
 			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc0f37fb-b65a-4284-bed1-045f031a20e9")
+			(uuid "b3386322-916d-45d7-8c37-3f3d42c258ca")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28)
@@ -1589,7 +1589,7 @@
 			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc0f37fb-b65a-4284-bed1-045f031a20e9")
+			(uuid "b9b2b2b5-89c3-40cf-b8aa-3c30b62247ba")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88)
@@ -1600,7 +1600,7 @@
 			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc0f37fb-b65a-4284-bed1-045f031a20e9")
+			(uuid "e60087a1-3aaa-4210-815a-49e69705ceac")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -2428,7 +2428,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3683273c-b05e-42c4-af6a-ab52da826f43")
+			(uuid "a1246168-6a18-4c42-bc9d-d3be81365692")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -2438,7 +2438,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3683273c-b05e-42c4-af6a-ab52da826f43")
+			(uuid "f4feaaf4-7112-4eb1-af13-c93bbb15271f")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -2448,7 +2448,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3683273c-b05e-42c4-af6a-ab52da826f43")
+			(uuid "5b17e818-7c34-48f8-a8a0-c092da3fd0f0")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -2459,7 +2459,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3683273c-b05e-42c4-af6a-ab52da826f43")
+			(uuid "544d55c6-cea1-4862-af7c-e8ff2a1ccad3")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -2470,7 +2470,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3683273c-b05e-42c4-af6a-ab52da826f43")
+			(uuid "5822f7f0-d44a-4276-8a38-12ac4e9ae26a")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -2492,7 +2492,7 @@
 			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7af2adb6-a584-48cb-a2c2-5705c9addd9a")
+			(uuid "6967f117-164a-4ef8-8aad-c9ed84e46716")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -2502,7 +2502,7 @@
 			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7af2adb6-a584-48cb-a2c2-5705c9addd9a")
+			(uuid "afa2e89d-d4fa-4333-9928-fb47301c59a9")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -2512,7 +2512,7 @@
 			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7af2adb6-a584-48cb-a2c2-5705c9addd9a")
+			(uuid "98f3a2e0-3516-4a6f-8ca7-73c2de7aad4b")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -2523,7 +2523,7 @@
 			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7af2adb6-a584-48cb-a2c2-5705c9addd9a")
+			(uuid "aca2c74b-f2fe-4a50-87ef-62b97349990e")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -2534,7 +2534,7 @@
 			(net 35 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7af2adb6-a584-48cb-a2c2-5705c9addd9a")
+			(uuid "ec58e239-3473-42da-968c-703d2de675c1")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -7622,7 +7622,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd45efa7-8dfb-41c7-b186-53d6ba1bfd4e")
+			(uuid "db06104a-9250-4816-b065-3af06f69af58")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -7632,7 +7632,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd45efa7-8dfb-41c7-b186-53d6ba1bfd4e")
+			(uuid "4a480cb2-258a-4a3b-a34e-69fc6b2d68f6")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -7642,7 +7642,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd45efa7-8dfb-41c7-b186-53d6ba1bfd4e")
+			(uuid "cc9eb9e1-61a0-4a05-9780-7615c95e3289")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -7653,7 +7653,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd45efa7-8dfb-41c7-b186-53d6ba1bfd4e")
+			(uuid "9be3c742-0cd2-492b-b9bf-f36367394a71")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -7664,7 +7664,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd45efa7-8dfb-41c7-b186-53d6ba1bfd4e")
+			(uuid "38993d8a-0256-4b7c-bb2b-45c86cbb24fc")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -7686,7 +7686,7 @@
 			(net 28 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "071bebfc-ad11-4100-9e55-180a216a149e")
+			(uuid "0d60d8dd-7b0a-4ee1-ab74-86097a74ea8f")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -7696,7 +7696,7 @@
 			(net 28 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "071bebfc-ad11-4100-9e55-180a216a149e")
+			(uuid "f70ce0d3-aa0e-49bb-ad8b-125146658bc8")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -7706,7 +7706,7 @@
 			(net 28 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "071bebfc-ad11-4100-9e55-180a216a149e")
+			(uuid "428df1e1-6b24-4f63-8de0-ef25d66cc46b")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -7717,7 +7717,7 @@
 			(net 28 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "071bebfc-ad11-4100-9e55-180a216a149e")
+			(uuid "83c0379f-68c3-4b99-89a6-96236e02cdbf")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -7728,7 +7728,7 @@
 			(net 28 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "071bebfc-ad11-4100-9e55-180a216a149e")
+			(uuid "432af2d7-af14-4d3c-838f-c601da2e1788")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -8556,7 +8556,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "279100d0-e506-47d3-95fb-7ff423c65851")
+			(uuid "3640006b-2aad-4ef3-b368-8a8a7fa37b72")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -8566,7 +8566,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "279100d0-e506-47d3-95fb-7ff423c65851")
+			(uuid "6bdb6427-b413-4047-8dc6-5ddc5fc7e35a")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -8576,7 +8576,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "279100d0-e506-47d3-95fb-7ff423c65851")
+			(uuid "7bcd56f4-76c5-4dd2-8e1d-d88edfc8d165")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -8587,7 +8587,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "279100d0-e506-47d3-95fb-7ff423c65851")
+			(uuid "ebf03a68-5763-4bf5-ae3c-9ed9f9626276")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -8598,7 +8598,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "279100d0-e506-47d3-95fb-7ff423c65851")
+			(uuid "d16831cd-002a-4d12-8046-8c4f1c4c9f57")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -8620,7 +8620,7 @@
 			(net 59 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "60531f1d-174d-4da4-9386-aefb0ec2da7b")
+			(uuid "5d302f0e-d7e4-4ad3-9492-723683d6e6b4")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -8630,7 +8630,7 @@
 			(net 59 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "60531f1d-174d-4da4-9386-aefb0ec2da7b")
+			(uuid "f3b1420b-e28b-4bef-a934-4c322e068266")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -8640,7 +8640,7 @@
 			(net 59 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "60531f1d-174d-4da4-9386-aefb0ec2da7b")
+			(uuid "840a8490-fe61-466d-8b68-3bb1b9e1f713")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -8651,7 +8651,7 @@
 			(net 59 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "60531f1d-174d-4da4-9386-aefb0ec2da7b")
+			(uuid "84668251-cf3b-4941-ba11-28ef59dc3c02")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -8662,7 +8662,7 @@
 			(net 59 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "60531f1d-174d-4da4-9386-aefb0ec2da7b")
+			(uuid "6df52013-4bb3-451f-be8f-2e5fac29b16e")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -16358,7 +16358,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e453e592-7a47-49ec-801b-5735cc2ffd80")
+			(uuid "ca73c772-68b4-4a80-bd5e-da15d8a0dccd")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -16368,7 +16368,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e453e592-7a47-49ec-801b-5735cc2ffd80")
+			(uuid "8bd00d89-4a1a-4ff8-9800-101658533603")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -16378,7 +16378,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e453e592-7a47-49ec-801b-5735cc2ffd80")
+			(uuid "856ea6f3-3c5d-4c48-ae1d-13247af252b4")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -16389,7 +16389,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e453e592-7a47-49ec-801b-5735cc2ffd80")
+			(uuid "5a0d02c3-dc09-4a38-bd48-be05dc40ab54")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -16400,7 +16400,7 @@
 			(net 45 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e453e592-7a47-49ec-801b-5735cc2ffd80")
+			(uuid "1ce6ed60-adb7-4a2c-b6ea-90b1cf7fb058")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -16422,7 +16422,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6b7d78f3-c4e7-491c-9d83-b244576d045c")
+			(uuid "e9464f96-64e0-4f2b-bda8-df3a945ef63c")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -16432,7 +16432,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6b7d78f3-c4e7-491c-9d83-b244576d045c")
+			(uuid "a871890a-7c02-4414-98bf-63314e6574b3")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -16442,7 +16442,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6b7d78f3-c4e7-491c-9d83-b244576d045c")
+			(uuid "3ff22857-08d1-422c-9f7b-5f909ef212fd")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -16453,7 +16453,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6b7d78f3-c4e7-491c-9d83-b244576d045c")
+			(uuid "0c3114e0-0385-4bc3-9cdf-acec9c7d0385")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -16464,7 +16464,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6b7d78f3-c4e7-491c-9d83-b244576d045c")
+			(uuid "f321ef6e-0b4a-4eff-b591-7c25b9a05caa")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -17292,7 +17292,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "89df1fbe-a521-4200-aafa-1bf6be5a4d2b")
+			(uuid "7c80d06a-e48b-45c5-9247-c4ad340007b0")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -17302,7 +17302,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "89df1fbe-a521-4200-aafa-1bf6be5a4d2b")
+			(uuid "60725ce4-f96f-406b-af41-30e05eea99b1")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -17312,7 +17312,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "89df1fbe-a521-4200-aafa-1bf6be5a4d2b")
+			(uuid "91b380ea-5a4f-4381-9175-c0d8d8d40e5b")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -17323,7 +17323,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "89df1fbe-a521-4200-aafa-1bf6be5a4d2b")
+			(uuid "33babfd3-a373-4059-bf46-d5dabc696421")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -17334,7 +17334,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "89df1fbe-a521-4200-aafa-1bf6be5a4d2b")
+			(uuid "1837fd42-56eb-460e-89e1-ffccd9210be3")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -17356,7 +17356,7 @@
 			(net 50 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ca9ce2a8-5823-4e4e-920e-8ed52c4105fe")
+			(uuid "6254bee1-80c2-4499-ab9f-666a99cdd99b")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -17366,7 +17366,7 @@
 			(net 50 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ca9ce2a8-5823-4e4e-920e-8ed52c4105fe")
+			(uuid "26c58f99-f10f-4471-bd61-eb51c336ef75")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -17376,7 +17376,7 @@
 			(net 50 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ca9ce2a8-5823-4e4e-920e-8ed52c4105fe")
+			(uuid "3f8d38b8-eabe-4b14-a811-1cdafab1b424")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -17387,7 +17387,7 @@
 			(net 50 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ca9ce2a8-5823-4e4e-920e-8ed52c4105fe")
+			(uuid "c11eef96-9e60-408e-8638-ed925240ca7d")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -17398,7 +17398,7 @@
 			(net 50 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ca9ce2a8-5823-4e4e-920e-8ed52c4105fe")
+			(uuid "f54fd10c-d5a5-48e0-ab02-d1ed9cbc260c")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -27643,7 +27643,7 @@
 			(net 43 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "12f4f599-50bf-47db-bc8b-f00e71f43cab")
+			(uuid "5ca16b1d-2c11-4b75-8a19-0da6a6acc16a")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -27653,7 +27653,7 @@
 			(net 43 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "12f4f599-50bf-47db-bc8b-f00e71f43cab")
+			(uuid "f942fc2b-c246-486b-9d73-b996ed347815")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -27663,7 +27663,7 @@
 			(net 43 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "12f4f599-50bf-47db-bc8b-f00e71f43cab")
+			(uuid "aa9d938c-8545-41e0-a18c-5374f5cc4e54")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -27674,7 +27674,7 @@
 			(net 43 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "12f4f599-50bf-47db-bc8b-f00e71f43cab")
+			(uuid "e57cac6b-3eef-4ecc-a493-e1118cc37014")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -27685,7 +27685,7 @@
 			(net 43 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "12f4f599-50bf-47db-bc8b-f00e71f43cab")
+			(uuid "cdd1567f-ad69-49bc-818e-e783fb1bce6d")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -27707,7 +27707,7 @@
 			(net 57 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d0fa089-1574-4b51-8aa0-87238f5267f6")
+			(uuid "79f4d114-1085-484b-9b94-3b9c833d32f6")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -27717,7 +27717,7 @@
 			(net 57 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d0fa089-1574-4b51-8aa0-87238f5267f6")
+			(uuid "123c39de-f564-410f-97fa-a8e079931ede")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -27727,7 +27727,7 @@
 			(net 57 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d0fa089-1574-4b51-8aa0-87238f5267f6")
+			(uuid "d8d50a50-7a09-4ad6-a8f8-a941a554422a")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -27738,7 +27738,7 @@
 			(net 57 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d0fa089-1574-4b51-8aa0-87238f5267f6")
+			(uuid "befa8239-73c0-4ece-b79d-00a546f7fc50")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -27749,7 +27749,7 @@
 			(net 57 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d0fa089-1574-4b51-8aa0-87238f5267f6")
+			(uuid "ad13d3a5-bb86-40df-914e-e591cb25ee9d")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -28944,9 +28944,9 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "unconnected-(U1-RST-Pad22)")
+			(net 49 "Net-(J2-Pin_1)")
 			(pinfunction "RST")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "7e67bdb7-2167-4b43-a8c6-df5de17e4d26")
 		)
 		(pad "23" thru_hole oval
@@ -29742,7 +29742,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87983e41-ecf5-4444-b3c3-4bb184323118")
+			(uuid "8d8d77f9-29af-4254-80a0-b289d8fb5741")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -29752,7 +29752,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87983e41-ecf5-4444-b3c3-4bb184323118")
+			(uuid "31742d90-2b75-4ebc-b6a2-d448b740001d")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -29762,7 +29762,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87983e41-ecf5-4444-b3c3-4bb184323118")
+			(uuid "84d12e6d-986d-49c0-99f0-7d07541d20f2")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74 180)
@@ -29773,7 +29773,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87983e41-ecf5-4444-b3c3-4bb184323118")
+			(uuid "e0705e30-5a85-4975-8e25-6d2fbcd86494")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34 180)
@@ -29784,7 +29784,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87983e41-ecf5-4444-b3c3-4bb184323118")
+			(uuid "6231344c-1f8c-47dd-bb88-a32f2bdf1c47")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28)
@@ -29806,7 +29806,7 @@
 			(net 56 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29f52bd3-54b3-4bf3-a947-83572f449306")
+			(uuid "c9b913f1-6221-424d-a60a-5ae8fcda8e89")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -29816,7 +29816,7 @@
 			(net 56 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29f52bd3-54b3-4bf3-a947-83572f449306")
+			(uuid "075eea8a-4093-4042-928d-24d2881f6424")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -29826,7 +29826,7 @@
 			(net 56 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29f52bd3-54b3-4bf3-a947-83572f449306")
+			(uuid "13796b2b-a44a-452c-bb81-5d1db691f84e")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28)
@@ -29837,7 +29837,7 @@
 			(net 56 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29f52bd3-54b3-4bf3-a947-83572f449306")
+			(uuid "2a061a5b-d8a2-481c-8f9a-fbcdebfcfea7")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88)
@@ -29848,7 +29848,7 @@
 			(net 56 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29f52bd3-54b3-4bf3-a947-83572f449306")
+			(uuid "66089acc-b520-48d4-8480-71a4e5b43bf8")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -30975,7 +30975,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52dfc8a-49b1-420d-9695-72d5909973fb")
+			(uuid "4bf3dcce-8132-4585-927f-cd8ab7448e46")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -30985,7 +30985,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52dfc8a-49b1-420d-9695-72d5909973fb")
+			(uuid "f990f5df-f493-48ba-be7b-f8c22b68209e")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -30995,7 +30995,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52dfc8a-49b1-420d-9695-72d5909973fb")
+			(uuid "a6c68aea-6956-4059-aed9-2d3acdc6db8e")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -31006,7 +31006,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52dfc8a-49b1-420d-9695-72d5909973fb")
+			(uuid "fea0bc54-a394-4295-9c41-7196308bd227")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -31017,7 +31017,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52dfc8a-49b1-420d-9695-72d5909973fb")
+			(uuid "07c04333-b924-4399-8394-3da2589b2469")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -31039,7 +31039,7 @@
 			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "821fe828-e06b-47be-8261-1d97c6a3bdb0")
+			(uuid "512806c4-3b19-4d90-9b2e-013c2ad95178")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -31049,7 +31049,7 @@
 			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "821fe828-e06b-47be-8261-1d97c6a3bdb0")
+			(uuid "667d2728-bf1b-4170-a090-9d0e90bb3041")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -31059,7 +31059,7 @@
 			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "821fe828-e06b-47be-8261-1d97c6a3bdb0")
+			(uuid "b4b994c4-383e-4e72-b726-74e8585c5d69")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -31070,7 +31070,7 @@
 			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "821fe828-e06b-47be-8261-1d97c6a3bdb0")
+			(uuid "f7fe937a-f0ad-4995-9a56-611bc20b644e")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -31081,7 +31081,7 @@
 			(net 36 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "821fe828-e06b-47be-8261-1d97c6a3bdb0")
+			(uuid "5d694118-970e-4f55-a8fd-acf5de398f77")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -34674,7 +34674,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a71915d-4e86-40ad-82a0-9e3f17fff263")
+			(uuid "19342464-f419-40c4-8441-8858fa5d885a")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -34684,7 +34684,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a71915d-4e86-40ad-82a0-9e3f17fff263")
+			(uuid "738706ff-b416-4044-afd5-b91c1b5292a9")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -34694,7 +34694,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a71915d-4e86-40ad-82a0-9e3f17fff263")
+			(uuid "1555eabb-8b77-40f1-a769-8ac7254d4a5a")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -34705,7 +34705,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a71915d-4e86-40ad-82a0-9e3f17fff263")
+			(uuid "8ba53318-78bc-4189-8527-0ec74f417571")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -34716,7 +34716,7 @@
 			(net 42 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a71915d-4e86-40ad-82a0-9e3f17fff263")
+			(uuid "0eb3c3b5-a3bd-4b47-8c37-1612fe49f6aa")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -34738,7 +34738,7 @@
 			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d72d5e93-379b-4c8a-8180-5bebe5c46c5b")
+			(uuid "07c69a8f-5dd5-42a1-adaf-6666238e2052")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -34748,7 +34748,7 @@
 			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d72d5e93-379b-4c8a-8180-5bebe5c46c5b")
+			(uuid "dffe9247-cd3f-4414-8e90-f82106b9a5c5")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -34758,7 +34758,7 @@
 			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d72d5e93-379b-4c8a-8180-5bebe5c46c5b")
+			(uuid "2f864c42-38dd-4176-86fb-492d9952f1a8")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -34769,7 +34769,7 @@
 			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d72d5e93-379b-4c8a-8180-5bebe5c46c5b")
+			(uuid "ba78d6bd-773e-4607-bfe0-54dc0724aceb")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -34780,7 +34780,7 @@
 			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d72d5e93-379b-4c8a-8180-5bebe5c46c5b")
+			(uuid "4bcc6f02-c70b-4fb2-978b-17361334107d")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -35608,7 +35608,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4340380-24e5-4698-a3e0-917bbdbfc642")
+			(uuid "effa43b0-844f-4207-af90-76cc40c3f8d5")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -35618,7 +35618,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4340380-24e5-4698-a3e0-917bbdbfc642")
+			(uuid "77d89ae6-7308-4998-a6a1-f0da3e226cb6")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -35628,7 +35628,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4340380-24e5-4698-a3e0-917bbdbfc642")
+			(uuid "72f2ef80-ae1a-44a2-af49-fc89f09788ff")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -35639,7 +35639,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4340380-24e5-4698-a3e0-917bbdbfc642")
+			(uuid "163380e5-6c56-4382-8e80-5b9ea1be1228")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -35650,7 +35650,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4340380-24e5-4698-a3e0-917bbdbfc642")
+			(uuid "b74e62dd-a6da-414f-858b-212df8452713")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -35672,7 +35672,7 @@
 			(net 61 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4de90c5f-59bc-45c6-9695-c7155c55a87e")
+			(uuid "04fd1e16-39e6-410c-806a-db546905096e")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -35682,7 +35682,7 @@
 			(net 61 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4de90c5f-59bc-45c6-9695-c7155c55a87e")
+			(uuid "0267fe86-f164-43df-97a8-1e6c4dea511c")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -35692,7 +35692,7 @@
 			(net 61 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4de90c5f-59bc-45c6-9695-c7155c55a87e")
+			(uuid "4f1e7433-ee00-48b9-a62f-b736325b421e")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -35703,7 +35703,7 @@
 			(net 61 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4de90c5f-59bc-45c6-9695-c7155c55a87e")
+			(uuid "06125716-6817-4e02-bb30-d2013bda6afb")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -35714,7 +35714,7 @@
 			(net 61 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4de90c5f-59bc-45c6-9695-c7155c55a87e")
+			(uuid "29236022-d14b-4db9-988f-cf6219adcbf8")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -37654,6 +37654,231 @@
 		(model "${BROWNSUGAR_KBD_3DMOD}/keycap_model/cherry/KiCad/step/convex_1u.step"
 			(offset
 				(xyz 0 0 11.1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(layer "F.Cu")
+		(uuid "bf50cf32-5c2f-40de-8b29-fd77ecd2e955")
+		(at 220.26581 48.815666 -90)
+		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 1.00mm single row")
+		(property "Reference" "J2"
+			(at 0 -1.61 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a37b0a5a-bf56-4fc2-a834-27741e01afe2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Reset"
+			(at 0 1.61 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92e28e16-2991-4e16-8f2b-7c02f836d133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a60c417-df80-4c1c-8a3c-18ff3a2ea367")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3686bdf-4d61-4cb4-ab88-364d85420312")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/00d06cff-b57e-4c36-b26f-d711964efc8e")
+		(sheetname "/")
+		(sheetfile "KiCad_Cherry_R_pcb.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.745 0.735)
+			(end -0.685565 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71dc818b-a144-4540-82a7-17f7ab7d628b")
+		)
+		(fp_line
+			(start -0.745 0.735)
+			(end 0.745 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d37e1e9-d3ab-417d-86a6-724ea000fb31")
+		)
+		(fp_line
+			(start -0.745 0.735)
+			(end -0.745 0.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fce99a85-6a2d-40cc-a592-109896bed0c9")
+		)
+		(fp_line
+			(start 0.685565 0.735)
+			(end 0.745 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bc437a42-c591-4d61-82f9-54616564f63b")
+		)
+		(fp_line
+			(start 0.745 0.735)
+			(end 0.745 0.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b36442df-9634-4348-a37d-c566363cad29")
+		)
+		(fp_line
+			(start -0.745 0)
+			(end -0.745 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d7b49ba-40af-459e-ad6d-075ebd8ab998")
+		)
+		(fp_line
+			(start -0.745 -0.735)
+			(end 0 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb814d9b-29be-4819-b305-5b1acacbad3f")
+		)
+		(fp_rect
+			(start -1.14 -1)
+			(end 1.14 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3ea44076-cda8-418f-9566-a985e0d572be")
+		)
+		(fp_line
+			(start -0.635 0.5)
+			(end -0.635 -0.1825)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4c8be6d-aeb2-4c12-9936-f28e10b968d7")
+		)
+		(fp_line
+			(start 0.635 0.5)
+			(end -0.635 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58bc36f4-aa7a-44cd-a561-ba9b02112814")
+		)
+		(fp_line
+			(start -0.635 -0.1825)
+			(end -0.3175 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca2abf0a-1819-4d71-be67-e0870fdbfd34")
+		)
+		(fp_line
+			(start -0.3175 -0.5)
+			(end 0.635 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9f0180d-4c98-4934-9585-09dc33fdb4b9")
+		)
+		(fp_line
+			(start 0.635 -0.5)
+			(end 0.635 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c1258c7-1e9a-403a-bb66-c88ea9537de7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1476cf08-c7c6-465e-b6f9-044871510ff3")
+			(effects
+				(font
+					(size 0.76 0.76)
+					(thickness 0.114)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 0.85 0.85)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 49 "Net-(J2-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "ad6524f2-2948-434f-b4b3-392279ad39d2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x01_P1.00mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -41139,7 +41364,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d554bad8-2c3d-4d69-982e-b73e5d1600a5")
+			(uuid "97af6d6b-1b86-4d24-a768-0c7555bb85df")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -41149,7 +41374,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d554bad8-2c3d-4d69-982e-b73e5d1600a5")
+			(uuid "527045a7-436b-458f-b42b-2b2a2d603cc9")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -41159,7 +41384,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d554bad8-2c3d-4d69-982e-b73e5d1600a5")
+			(uuid "d6dee8be-75ee-4051-8aff-6514c0017ec7")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -41170,7 +41395,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d554bad8-2c3d-4d69-982e-b73e5d1600a5")
+			(uuid "df672508-f667-4e0e-a0a0-29cda0d56ae5")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -41181,7 +41406,7 @@
 			(net 63 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d554bad8-2c3d-4d69-982e-b73e5d1600a5")
+			(uuid "998ea4a6-204f-4f3a-8a0f-51decab90c41")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -41203,7 +41428,7 @@
 			(net 53 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f62d1325-cbe0-46c3-9ba1-97863a541f87")
+			(uuid "608b7367-f691-4bcb-8ba2-e532c39c403e")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -41213,7 +41438,7 @@
 			(net 53 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f62d1325-cbe0-46c3-9ba1-97863a541f87")
+			(uuid "c253a2cd-9ff6-43d7-9352-8b0781afa654")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -41223,7 +41448,7 @@
 			(net 53 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f62d1325-cbe0-46c3-9ba1-97863a541f87")
+			(uuid "fe2e5dea-386d-4f25-a22d-57a70400edb9")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -41234,7 +41459,7 @@
 			(net 53 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f62d1325-cbe0-46c3-9ba1-97863a541f87")
+			(uuid "7a741778-8e80-4277-9a0d-94547a1d72e7")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -41245,7 +41470,7 @@
 			(net 53 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f62d1325-cbe0-46c3-9ba1-97863a541f87")
+			(uuid "b9381009-fdde-474b-9318-f3223cdd0d81")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -42073,7 +42298,7 @@
 			(net 44 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e1d3f1f-bd75-4c2d-8934-c000138e1a1b")
+			(uuid "3a654b5c-825f-40d5-a461-3d620bef2358")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -42083,7 +42308,7 @@
 			(net 44 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e1d3f1f-bd75-4c2d-8934-c000138e1a1b")
+			(uuid "892b23a9-d067-4f21-8960-c0aaa123ae77")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -42093,7 +42318,7 @@
 			(net 44 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e1d3f1f-bd75-4c2d-8934-c000138e1a1b")
+			(uuid "df20a145-d32f-491b-8440-881c83d72373")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74 180)
@@ -42104,7 +42329,7 @@
 			(net 44 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e1d3f1f-bd75-4c2d-8934-c000138e1a1b")
+			(uuid "402831bb-65ab-493c-b585-28a9ae75388c")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34 180)
@@ -42115,7 +42340,7 @@
 			(net 44 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e1d3f1f-bd75-4c2d-8934-c000138e1a1b")
+			(uuid "6b4ca234-c85b-466d-8191-9468861eb932")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28)
@@ -42137,7 +42362,7 @@
 			(net 58 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "451433dd-c916-42a0-aaea-5127f0d2fd14")
+			(uuid "b052800e-2b63-4246-bdc7-af8abb9be35c")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -42147,7 +42372,7 @@
 			(net 58 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "451433dd-c916-42a0-aaea-5127f0d2fd14")
+			(uuid "b83a59df-7cb1-4528-92ed-8efa891a11d7")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08)
@@ -42157,7 +42382,7 @@
 			(net 58 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "451433dd-c916-42a0-aaea-5127f0d2fd14")
+			(uuid "55221af2-c094-4a9c-a4a3-8340e6685086")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28)
@@ -42168,7 +42393,7 @@
 			(net 58 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "451433dd-c916-42a0-aaea-5127f0d2fd14")
+			(uuid "3eae9c4f-7d95-44ae-8053-7adf96647e2a")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88)
@@ -42179,7 +42404,7 @@
 			(net 58 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "451433dd-c916-42a0-aaea-5127f0d2fd14")
+			(uuid "e868090b-2a60-4f89-a379-fccf0443a4ec")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -44864,7 +45089,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0e81cb17-2546-4e53-909e-7dafe2e99501")
+			(uuid "675f59aa-a3b3-4fe4-82df-7f91e68d30dd")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54)
@@ -44874,7 +45099,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0e81cb17-2546-4e53-909e-7dafe2e99501")
+			(uuid "ae322006-a5db-49eb-b42f-8005e92cfe98")
 		)
 		(pad "1" smd roundrect
 			(at -7.11 -2.54 180)
@@ -44884,7 +45109,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0e81cb17-2546-4e53-909e-7dafe2e99501")
+			(uuid "52b73de5-02b2-42e5-bef2-4da63cdc0d89")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -3.74)
@@ -44895,7 +45120,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0e81cb17-2546-4e53-909e-7dafe2e99501")
+			(uuid "09d49040-f386-4ba9-82c2-71642f903d3a")
 		)
 		(pad "1" thru_hole circle
 			(at -5.91 -1.34)
@@ -44906,7 +45131,7 @@
 			(net 46 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0e81cb17-2546-4e53-909e-7dafe2e99501")
+			(uuid "3bd50e4e-6a9a-47d5-bd65-abad1a6cb707")
 		)
 		(pad "2" thru_hole circle
 			(at 4.64 -6.28 180)
@@ -44928,7 +45153,7 @@
 			(net 60 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c9cfeb86-82ea-4038-be94-deea4e5bb487")
+			(uuid "e67b1602-55ba-4d86-a280-a5b7dcdcb383")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -44938,7 +45163,7 @@
 			(net 60 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c9cfeb86-82ea-4038-be94-deea4e5bb487")
+			(uuid "10e6f4c2-2a52-491a-8836-6d0879075d69")
 		)
 		(pad "2" smd roundrect
 			(at 5.84 -5.08 180)
@@ -44948,7 +45173,7 @@
 			(net 60 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c9cfeb86-82ea-4038-be94-deea4e5bb487")
+			(uuid "8500dab3-6b94-49bb-bdda-92375e563924")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -6.28 180)
@@ -44959,7 +45184,7 @@
 			(net 60 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c9cfeb86-82ea-4038-be94-deea4e5bb487")
+			(uuid "46b115f7-ef95-422a-aa32-094d6db37624")
 		)
 		(pad "2" thru_hole circle
 			(at 7.04 -3.88 180)
@@ -44970,7 +45195,7 @@
 			(net 60 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c9cfeb86-82ea-4038-be94-deea4e5bb487")
+			(uuid "a1847614-5a8b-4a28-b022-3d56f585d63e")
 		)
 		(embedded_fonts no)
 		(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/socket/KiCad/mx.step"
@@ -53471,7 +53696,7 @@
 	(gr_text "1U"
 		(at 47.62875 113.23375 0)
 		(layer "F.Fab")
-		(uuid "5467670a-f31f-4400-9ea3-d28102a01b8d")
+		(uuid "a5ee32d7-9748-41fc-9544-65a89fb377b7")
 		(effects
 			(font
 				(size 1 1)
@@ -53482,7 +53707,7 @@
 	(gr_text "${REFERENCE}"
 		(at 203.636741 49.966597 0)
 		(layer "F.Fab")
-		(uuid "f4a4ecec-42d2-44b1-98d3-7d3c834439fa")
+		(uuid "becd7a26-509c-49ab-84a2-5bda7807b875")
 		(effects
 			(font
 				(size 1 1)
@@ -53493,7 +53718,7 @@
 	(gr_text "1U"
 		(at 204.71625 58.53375 0)
 		(layer "F.Fab")
-		(uuid "8fd3d4d5-ce0b-4ce4-a916-0d9692e897ce")
+		(uuid "8d7cc786-352c-44af-a1cb-bcc0bb5589a9")
 		(effects
 			(font
 				(size 1 1)
@@ -53504,7 +53729,7 @@
 	(gr_text "1U"
 		(at 204.71625 77.58375 0)
 		(layer "F.Fab")
-		(uuid "6e078bc2-c104-46f6-86d9-ed944a14fc9d")
+		(uuid "cb2df6be-dbfc-44df-9097-952b6a90e526")
 		(effects
 			(font
 				(size 1 1)
