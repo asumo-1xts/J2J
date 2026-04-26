@@ -230,7 +230,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KiCad_Cherry_L_bottom.kicad_pro",
+    "filename": "KiCad_Kailh_R_spacer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -269,7 +269,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "KiCad_Kailh_R_spacer.step",
       "svg": "",
       "vrml": ""
     },
