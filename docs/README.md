@@ -8,8 +8,6 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 
 **_We can make it if we try ..._**
 
-<img src="keyboard-layout.png" alt="Layout of J2J"/>
-
 </div>
 
 ## Concept / Spec
@@ -24,3 +22,23 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 | ホットスワップ  | 対応                       |
 | リマッピング    | 対応（Vial）               |
 | LEDライティング | 非対応                     |
+
+## Layers
+
+### #1 (default)
+
+![Layer #1](keyboard-layout.png)
+
+### #2
+
+`Fn`キーを押している間だけ起動。
+
+### #3 (MIDI mode)
+
+`M`キーを押しながら電源を投入することで起動。電源を落とすと自動的に終了。
+
+## Note
+
+```
+The firmware size is fine - 27342/28672 (95%, 1330 bytes free)
+```
