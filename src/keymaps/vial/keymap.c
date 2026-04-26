@@ -33,17 +33,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DEL, KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    KC_TRNS,        KC_TRNS
     ),
     [2] = LAYOUT(
-        KC_TRNS,KC_F1,  KC_F2,  KC_F3,      KC_F4,      KC_F5,
-        KC_TRNS,KC_TRNS,KC_UP,  KC_TRNS,    KC_TRNS,    KC_TRNS,
-        KC_DEL, KC_LEFT,KC_DOWN,KC_RIGHT,   KC_TRNS,    KC_TRNS,
-        KC_ENT, KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    KC_F6,
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,
-        KC_F7,  KC_F8,  KC_F9,  KC_F10,     KC_F11,     KC_F12,         KC_TRNS,
-        KC_TRNS,KC_TRNS,KC_UP,  KC_TRNS,    KC_TRNS,    KC_TRNS,        KC_TRNS,
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    KC_TRNS,        KC_TRNS,
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    C(S(KC_SLASH)), KC_TRNS,
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    KC_TRNS,        KC_TRNS,
-        KC_DEL, KC_TRNS,KC_TRNS,KC_TRNS,    KC_TRNS,    KC_TRNS,        KC_TRNS
+        MI_AOFF,MI_CH1, MI_CH2, MI_CH3,     MI_CH4,     MI_CH5,
+        KC_NO,  MI_OC0, MI_OCTU,KC_NO,      KC_NO,      KC_NO,
+        KC_NO,  MI_MODD,MI_OCTD,MI_MODU,    KC_NO,      KC_NO,
+        MI_SUST,MI_BNDD,MI_BNDU,KC_NO,      KC_NO,      MI_CH6,
+        KC_NO,  KC_NO,  KC_NO,  MI_OFF,     KC_NO,
+        MI_CH7, MI_CH8, MI_CH9, MI_CH10,    MI_CHND,    MI_CHNU,        KC_NO,
+        KC_NO,  MI_Cs,  MI_Ds,  KC_NO,      MI_Fs,      MI_Gs,          MI_As,
+        MI_C,   MI_D,   MI_E,   MI_F,       MI_G,       MI_A,           MI_B,
+        KC_NO,  KC_NO,  KC_NO,  KC_NO,      KC_NO,      KC_NO,          KC_NO,
+        KC_NO,  MI_ON,  KC_NO,  KC_NO,      KC_NO,      KC_NO,          KC_NO,
+        KC_NO,  KC_NO,  KC_NO,  KC_NO,      KC_NO,      KC_NO,          KC_NO
     )
 };
 
@@ -68,3 +68,7 @@ layer_state_t default_layer_state_set_user(layer_state_t state) {
     }
     return state;
 }
+
+// Magic機能を使わないので、容量を削減するため上書きする
+uint16_t keycode_config(uint16_t keycode) {return keycode;}
+uint8_t mod_config(uint8_t mod) {return mod;}
