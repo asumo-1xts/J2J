@@ -8,8 +8,7 @@ Just the Two of JIS [![License: GPL-3.0](https://img.shields.io/badge/License-GP
 
 **_We can make it if we try ..._**
 
-<img src="keyboard-layout_L.png" alt="J2J_L" height="160" />
-<img src="keyboard-layout_R.png" alt="J2J_R" height="160" />
+<img src="keyboard-layout.png" alt="Layout of J2J"/>
 
 </div>
 

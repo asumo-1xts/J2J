@@ -3,3 +3,5 @@ KiCad_*.zip
 *.kicad_prl
 *.lck
 fp-info-cache
+*autosave*
+*auto_saved*

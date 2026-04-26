@@ -1,0 +1,6 @@
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0x49, 0x2E, 0x14, 0xB0, 0x88, 0x6B, 0x1A, 0x0E}
+#define VIAL_UNLOCK_COMBO_ROWS {0, 10}
+#define VIAL_UNLOCK_COMBO_COLS {0, 1}
+#define NO_ACTION_ONESHOT
