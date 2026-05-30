@@ -1,0 +1,15 @@
+     , Col0, Col1 , Col2 , Col3, Col4 , Col5 , Col6 , Col7  , Col8
+     ,     ,      ,      ,     ,      ,      ,      ,       , 
+Row0 , Fn  , F1   , F2   , F3  , F4   , F5   , F6   ,       , 
+Row1 , Esc , 1    , 2    , 3   , 4    , 5    , 6    ,       , 
+Row2 ,     , Tab  , Q    , W   , E    , R    , T    ,       , 
+Row3 ,     , Ctrl , A    , S   , D    , F    , G    ,       , 
+Row4 ,     , Shift, Z    , X   , C    , V    , B    ,       , 
+Row5 ,     , Fn   , Alt  , OS  , LANG1, Space,      ,       , 
+     ,     ,      ,      ,     ,      ,      ,      ,       , 
+Row6 , F7  , F8   , F9   , F10 , F11  , F12  , PrtSc, Macro1, Macro2
+Row7 , 7   , 8    , 9    , 0   , -    , =    , `    , BS    , Macro3
+Row8 , Y   , U    , I    , O   , P    , [    , ]    , Enter , Macro4
+Row9 , H   , J    , K    , L   , ;    , '    , \    ,       , Home
+Row10, N   , M    , ，   , .   , /    , Shift,      , Up    , End
+Row11,     , Space, LANG2, OS  , Fn   , Left ,      , Down  , Right
