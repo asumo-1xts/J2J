@@ -25,4 +25,4 @@ Just the Two of ~~US~~ JIS
 | レイアウト      | US 87キー  | **JIS-like** (= ISO Enter + LANG1, LANG2)                                                 |
 | キーマップ変更  |     ✅     | [Vial](https://get.vial.today/), [Pipette](https://github.com/darakuneko/pipette-desktop) |
 | ホットスワップ  |     ✅     | Kailh Chocシリーズに準拠                                                                  |
-| LEDライティング |     ✖      | `wontfix`                                                                                 |
+| LEDライティング |     ✅     | 全てのキー裏にSK6812MINI-Eを配置                                                          |
