@@ -1,0 +1,8 @@
+J2J_PARTS_*/J2J_*/**
+J2J_PCB_*/**
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+
+*.step
+*.FcBak
