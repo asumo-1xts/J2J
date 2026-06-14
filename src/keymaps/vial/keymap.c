@@ -2,6 +2,11 @@
 
 #define TTTT KC_TRNS
 
+// HSV_CORAL
+const uint8_t HUE = 11;
+const uint8_t SAT = 176;
+const uint8_t VAL = 127;
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         MO(1),  KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_F6,
@@ -11,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_TAB, KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,
         KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,   KC_LBRC,KC_RBRC,KC_ENT, KC_NO,
                 KC_LCTL,KC_A,   KC_S,   KC_D,   KC_F,   KC_G,
-        KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,KC_QUOT,KC_BSLS,        KC_HOME, 
+        KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,KC_QUOT,KC_BSLS,        KC_HOME,
                 KC_LSFT,KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,
         KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,KC_RSFT,        KC_UP,  KC_END,
                 MO(1),  KC_LWIN,KC_LALT,KC_LNG1,KC_SPC,
@@ -25,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 TTTT,   TTTT,   KC_UP,  TTTT,   TTTT,   TTTT,
         TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,
                 KC_DEL, KC_LEFT,KC_DOWN,KC_RGHT,TTTT,   TTTT,
-        TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   TTTT,           TTTT,
+        TTTT,   TTTT,   TTTT,   UG_VALU,TTTT,   TTTT,   TTTT,           TTTT,
                 KC_ENT, TTTT,   TTTT,   TTTT,   TTTT,   TTTT,
         TTTT,   TTTT,   TTTT,   TTTT,   TTTT,   KC_CAPS,        TTTT,   TTTT,
                 TTTT,   TTTT,   TTTT,   TTTT,   TTTT,
@@ -33,22 +38,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
-// 電源投入時に走る関数
-void keyboard_post_init_user(void) {
-	_delay_ms(50); // 安定化を待つ
-    matrix_scan();
+void yawn(uint8_t hue, uint8_t sat, uint8_t val) {
+   	for (int16_t i = 0; i <= RGBLIGHT_LIMIT_VAL; i += RGBLIGHT_VAL_STEP) {
+		rgblight_sethsv_noeeprom(hue, sat, i);
+		wait_ms(30);
+	}
+	for (int16_t i = RGBLIGHT_LIMIT_VAL; i >= 0; i -= RGBLIGHT_VAL_STEP) {
+		rgblight_sethsv_noeeprom(hue, sat, i);
+		wait_ms(30);
+	}
 
-    // 9行3列のLキーが押されているかを確認
-    // もしTrueならLEDを点灯
-    if (matrix_get_row(9) & (1 << 3)) {
-        rgblight_enable_noeeprom();
-        for (int i = 0; i < 37; i++) { // 左手側
-            rgblight_sethsv_at(180, 97, 57, i); 
-        }
-        for (int i = 37; i < 87; i++) { // 右手側
-            rgblight_sethsv_at(180, 97, 57, i); 
-        }
-    }
+	rgblight_sethsv_noeeprom(hue, sat, 0); // いったん消灯
+	wait_ms(60);
+	rgblight_sethsv_noeeprom(hue, sat, val); // 最終的な明るさ
+}
+
+void keyboard_post_init_user(void) {
+    rgblight_enable_noeeprom();
+    rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+	yawn(HUE, SAT, VAL);
 }
 
 // Magic機能を使わないので、容量を削減するため上書きする
