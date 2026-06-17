@@ -1,9 +1,19 @@
-#define TTTT KC_TRNS
-
-// HSV_CORAL
+/**
+ * ==============================
+ * RGBライトのカラー設定: HSV_CORAL
+ * ==============================
+ */
 static const uint8_t HUE = 11;
 static const uint8_t SAT = 176;
 static const uint8_t VAL = 127;
+
+/**
+ * ==============================
+ * キーマップの定義
+ * ==============================
+ */
+
+#define TTTT KC_TRNS
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
