@@ -25,9 +25,7 @@ Just the Two of ~~US~~ JIS
 | レイアウト      | ロープロファイル<br/>**JIS-like US** 87キー                                                    |
 | キーマップ変更  | ✅ - [Vial](https://get.vial.today/), [Pipette](https://github.com/darakuneko/pipette-desktop) |
 | ホットスワップ  | ✅                                                                                             |
-| LEDライティング | ✅ - ※1                                                                                        |
-
-※1: `L`キーを押しながら電源を投入すると点灯します
+| LEDライティング | ✅                                                                                             |
 
 ## BOM
 
@@ -46,4 +44,10 @@ Just the Two of ~~US~~ JIS
 
 ## Notice
 
-- 破損を避けるため、TRRSケーブルの着脱はUSB Type-Cケーブルを抜いた状態で行ってください。
+- 故障を避けるため、TRRSケーブルの着脱はUSB Type-Cケーブルを抜いた状態で行ってください。
+- コンパイルの際は、Vial-QMKリポジトリにおける下記ファイルを手元で編集する必要があります。
+  - `/quantum/action.c`
+  - `/quantum/action_tapping.c`
+  - `/quantum/action_tapping.h`
+
+  詳細: 準備中
