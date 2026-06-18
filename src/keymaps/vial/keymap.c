@@ -28,6 +28,7 @@ void yawn(uint8_t hue, uint8_t sat, uint8_t val) {
 void check_rgb_timeout(void) {
   if (!is_rgb_timeout && (timer_elapsed32(key_timer) > RGBLIGHT_TIMEOUT)) {
     is_rgb_timeout = true;
+    rgblight_mode_noeeprom(RGBLIGHT_MODE_TWINKLE);
     rgblight_suspend();
   }
 }
@@ -36,6 +37,7 @@ void refresh_rgb(void) {
   key_timer = timer_read32();
   if (is_rgb_timeout) {
     is_rgb_timeout = false;
+    rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
     rgblight_wakeup();
   }
 }
@@ -48,7 +50,6 @@ void refresh_rgb(void) {
 
 void keyboard_post_init_user(void) {
   rgblight_enable_noeeprom();
-  rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
   yawn(HUE, SAT, VAL);
 }
 
@@ -60,8 +61,22 @@ void housekeeping_task_user(void) {
 
 void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
 #ifdef RGBLIGHT_TIMEOUT
-  if (record->event.pressed) refresh_rgb();
+  if (record->event.pressed) {
+    refresh_rgb();
+  }
 #endif
+}
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+  switch (get_highest_layer(state)) {
+    case _MI:  // MIDI layer
+      rgblight_mode_noeeprom(RGBLIGHT_MODE_RAINBOW_SWIRL);
+      break;
+    default:  // any other layers
+      rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+      break;
+  }
+  return state;
 }
 
 /**

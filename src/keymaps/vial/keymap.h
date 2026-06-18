@@ -4,9 +4,10 @@
  * ==============================
  */
 
-static const uint8_t HUE = 11;
-static const uint8_t SAT = 176;
-static const uint8_t VAL = 127;
+const uint8_t HUE = 11;
+const uint8_t SAT = 176;
+const uint8_t VAL = 127;
+const uint8_t RGBLED_RAINBOW_SWIRL_INTERVALS[] PROGMEM = {30};
 
 /**
  * ==============================
