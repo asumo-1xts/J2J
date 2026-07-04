@@ -13,19 +13,23 @@ Just the Two of ~~US~~ JIS
 
 **_We can make it if we try ..._**
 
-![Layer #1](keyboard-layout.png)
+<img src="01.webp" alt="完成品" width="60%">
+
+<br/>
 
 </div>
 
 ## Spec
 
-| 項目            | 仕様                                                                                           |
-| --------------- | ---------------------------------------------------------------------------------------------- |
-| 接続・給電      | USB Type-C                                                                                     |
-| レイアウト      | ロープロファイル<br/>**JIS-like US** 87キー                                                    |
-| キーマップ変更  | ✅ - [Vial](https://get.vial.today/), [Pipette](https://github.com/darakuneko/pipette-desktop) |
-| ホットスワップ  | ✅                                                                                             |
-| LEDライティング | ✅                                                                                             |
+| 項目            | 仕様                                        |
+| --------------- | ------------------------------------------- |
+| 接続・給電      | USB Type-C                                  |
+| レイアウト      | ロープロファイル<br/>**JIS-like US** 87キー |
+| キーマップ変更  | ✅ - [Vial](https://get.vial.today/)        |
+| ホットスワップ  | ✅                                          |
+| LEDライティング | ✅                                          |
+
+<img src="keyboard-layout.jpg" alt="Keyboard Layout" width="60%">
 
 ## BOM
 
@@ -34,10 +38,9 @@ Just the Two of ~~US~~ JIS
 | PCB基板                        |     左右1組 |
 | Kailh Choc V2 キースイッチ     |        87個 |
 | Kailh Choc V2 HotSwapソケット  |        87個 |
-| Kailh Choc V2 スタビライザー   |         4個 |
 | SK6812MINI-E フルカラーLED     |        87個 |
 | ケース                         | 左右上下1組 |
-| M2 12mmタップねじ              |        42本 |
+| M2 10mmタップねじ              |        42本 |
 | ロープロファイル用キーキャップ |         1組 |
 | 3.5mm TRRSケーブル             |         1本 |
 | USB Type-Cケーブル             |         1本 |
