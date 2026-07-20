@@ -6,6 +6,10 @@
 #define USE_SERIAL
 #define SPLIT_USB_DETECT
 
+// Windowsマシンによっては、USBを挿しなおさないと認識しない
+// その場合には下記をコメントアウトすると解決するかも（N=1）
+// #define SPLIT_WATCHDOG_ENABLE
+
 // LEDインジケーター
 #define LED_CAPS_LOCK_PIN C7
 
