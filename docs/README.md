@@ -13,9 +13,11 @@ Just the Two of ~~US~~ JIS
 
 **_We can make it if we try ..._**
 
-<img src="01.webp" alt="完成品" width="60%">
+製作記を公開しました: https://blog.asumo.dev/posts/16-J2J.html
 
 <br/>
+
+<img src="01.webp" alt="完成品" width="60%">
 
 </div>
 
@@ -48,9 +50,4 @@ Just the Two of ~~US~~ JIS
 ## Notice
 
 - 故障を避けるため、TRRSケーブルの着脱はUSB Type-Cケーブルを抜いた状態で行ってください。
-- コンパイルの際は、Vial-QMKリポジトリにおける下記ファイルを手元で編集する必要があります。
-  - `/quantum/action.c`
-  - `/quantum/action_tapping.c`
-  - `/quantum/action_tapping.h`
-
-  詳細: 準備中
+- コンパイルの際は、Vial-QMKリポジトリのソースファイルを手元で編集する必要があります。<br>詳細: https://blog.asumo.dev/posts/16-J2J.html#ファームウェア
